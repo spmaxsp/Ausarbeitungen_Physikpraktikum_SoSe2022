@@ -1,5 +1,5 @@
-Physikpraktikum SoSe2022
+# Physikpraktikum SoSe2022
 
-*04.04.2022:
-	-Versuch 2.1: Schwingungen
-	-Versuch 2.1: Schwingungen
+## 04.04.2022:
+* Versuch 2.1: Schwingungen
+* Versuch 2.2: Stehende Wellen und Beugung
