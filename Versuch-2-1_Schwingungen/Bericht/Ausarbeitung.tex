@@ -1,0 +1,95 @@
+% --------------------- VARIABLEN -------------------------
+
+\newcommand{\COURSE}{Physik und Materialwissenschaften\\ Praktikum Physik}
+\newcommand{\SEMESTER}{Elektro- und Informationstechnik II}
+\newcommand{\STUDENT}{Benjamin Langer\\ und\\ Maximilian Spahn}
+
+\newcommand{\HEADDING}{Praktikum Physik}
+\newcommand{\SUBHEADDING}{Versuch 2.1: Schwingungen}
+
+% ------------------- DEFINITIONEN -----------------------
+
+\documentclass[a4paper]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{tikz}
+\usetikzlibrary{arrows,decorations.markings}
+\usepackage{tabularx}
+\usepackage{fancybox}
+\usepackage{pgfplots}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage[page]{totalcount}
+
+%Größe der Ränder setzen
+\geometry{a4paper,left=2cm, right=2cm, top=2cm, bottom=2cm}
+
+%Kopf- und Fußzeile
+\pagestyle {fancy}
+\fancyhead[L]{\STUDENT}
+\fancyhead[C]{\COURSE}
+\fancyhead[R]{\today}
+
+\fancyfoot[L]{\SEMESTER}
+\fancyfoot[C]{}
+\fancyfoot[R]{Seite \thepage /\totalpages}
+
+%Formatierung der Überschrift, hier nichts ändern
+\def\header#1#2{
+  \begin{center}
+    {\Large #1}\\
+    {#2}
+  \end{center}
+}
+
+
+% ----------------------- DOCUMENT ---------------------------
+
+\begin{document}
+
+\header{\HEADDING}{\SUBHEADDING}
+
+\section*{Häusliche Vorarbeit:}
+\subsection*{Aufgabe 3.1.1}
+
+\begin{align}
+(m*\dfrac{d^2}{dt} + b*\dfrac{dx}{dt} + k*x = 0)
+\end{align}
+
+\begin{align*}
+ \text{Auslenkung:}& \quad x 
+ 	&&\Rightarrow \varphi \\
+ \text{Masse:}& \quad m 
+ 	&&\Rightarrow J \textit{(Trägheitsmoment)} &\\
+ \text{Geschwindigkeit:}& \quad v=\dfrac{dx}{dt} 
+ 	&&\Rightarrow \omega \textit{(Winkelgeschwindigeit)}&\\
+ \text{Beschleunigung:}& \quad a=\dfrac{d^2x}{dt^2} 
+ 	&&\Rightarrow \alpha \textit{(Winkelbeschleunigung)}&\\
+\end{align*}
+\begin{align*}
+ \text{Newton:}& \quad m \cdot a 
+ 	&&\Rightarrow J \cdot \alpha = J \dfrac{d\varphi}{dt} \\
+ \text{Dämpfungsgrad:}& \quad b \cdot v 
+ 	&&\Rightarrow b \cdot \omega = J \dfrac{d^2\varphi}{dt^2} \\
+ \text{Beschleunigung:}& \quad k \cdot x 
+ 	&&\Rightarrow k \cdot \varphi\\
+\end{align*}
+
+\begin{align}
+\Rightarrow m*\dfrac{d^2}{dt} + b*\dfrac{dx}{dt} + k*x = 0
+\end{align}
+
+
+
+
+	
+
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
