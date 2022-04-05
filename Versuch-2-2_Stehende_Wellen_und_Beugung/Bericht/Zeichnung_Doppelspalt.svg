@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="651.30951mm"
+   width="800.32861mm"
    height="641.93671mm"
-   viewBox="0 0 651.30951 641.93671"
+   viewBox="0 0 800.32861 641.93671"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
@@ -248,6 +248,30 @@
        width="220.41103"
        height="28.571798"
        id="rect1957-0" />
+    <rect
+       x="134.69562"
+       y="217.6899"
+       width="191.83922"
+       height="129.25339"
+       id="rect1847-3-3" />
+    <rect
+       x="134.69562"
+       y="217.6899"
+       width="191.83922"
+       height="129.25339"
+       id="rect965" />
+    <rect
+       x="134.69562"
+       y="217.6899"
+       width="191.83922"
+       height="129.25339"
+       id="rect1847-3-3-0" />
+    <rect
+       x="134.69562"
+       y="217.6899"
+       width="191.83922"
+       height="129.25339"
+       id="rect1012" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -257,8 +281,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.19446623"
-     inkscape:cx="1585.1985"
-     inkscape:cy="991.28394"
+     inkscape:cx="1883.9248"
+     inkscape:cy="991.28392"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -288,7 +312,7 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(214.34784,181.22495)">
+     transform="translate(293.38585,181.22495)">
     <g
        id="g903"
        transform="translate(1.5607219)">
@@ -476,5 +500,19 @@
          x="170.07031"
          y="-148.50921"><tspan>E-Feld-Sonde
 </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text1845-4-5"
+       style="font-style:normal;font-weight:normal;font-size:25.4px;line-height:0;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1847-3-3);fill:#000000;fill-opacity:1;stroke:none;"
+       transform="matrix(1.4998572,0,0,1.4998572,241.02205,-65.754693)"><tspan
+         x="134.69531"
+         y="224.2875"><tspan>60°</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text1845-4-5-1"
+       style="font-style:normal;font-weight:normal;font-size:25.4px;line-height:0;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1847-3-3-0);fill:#000000;fill-opacity:1;stroke:none;"
+       transform="matrix(1.4998572,0,0,1.4998572,-497.26976,-56.131723)"><tspan
+         x="134.69531"
+         y="224.2875"><tspan>-60°</tspan></tspan></text>
   </g>
 </svg>
