@@ -1,8 +1,8 @@
 % --------------------- VARIABLEN -------------------------
 
-\newcommand{\COURSE}{Physik und Materialwissenschaften\\ Praktikum Physik}
+\newcommand{\COURSE}{Physik und Materialwissenschaften\\ Praktikum Physik \\}
 \newcommand{\SEMESTER}{Elektro- und Informationstechnik II}
-\newcommand{\STUDENT}{Benjamin Langer\\ und\\ Maximilian Spahn}
+\newcommand{\STUDENT}{Maximilian Spahn\\ und\\Benjamin Langer}
 
 \newcommand{\HEADDING}{Praktikum Physik}
 \newcommand{\SUBHEADDING}{Versuch 2.1: Schwingungen}
@@ -26,10 +26,11 @@
 \usepackage[page]{totalcount}
 
 %Größe der Ränder setzen
-\geometry{a4paper,left=2cm, right=2cm, top=2cm, bottom=2cm}
+\geometry{a4paper,left=2cm, right=2cm, top=3cm, bottom=2cm, headheight=8cm}
 
 %Kopf- und Fußzeile
 \pagestyle {fancy}
+\fancyhf{}
 \fancyhead[L]{\STUDENT}
 \fancyhead[C]{\COURSE}
 \fancyhead[R]{\today}
@@ -46,11 +47,13 @@
   \end{center}
 }
 
+\numberwithin{equation}{subsection}
 
 % ----------------------- DOCUMENT ---------------------------
 
 \begin{document}
 
+\vspace{10pt}
 \header{\HEADDING}{\SUBHEADDING}
 
 \tableofcontents
@@ -63,23 +66,16 @@
 \end{align}
 
 \begin{align*}
- \text{Auslenkung:}& \quad x 
- 	&&\Rightarrow \varphi \\
- \text{Masse:}& \quad m 
- 	&&\Rightarrow J \textit{(Trägheitsmoment)} &\\
- \text{Geschwindigkeit:}& \quad v=\dfrac{dx}{dt} 
- 	&&\Rightarrow \omega \textit{(Winkelgeschwindigeit)}&\\
- \text{Beschleunigung:}& \quad a=\dfrac{d^2x}{dt^2} 
- 	&&\Rightarrow \alpha \textit{(Winkelbeschleunigung)}&
+\text{Auslenkung:}& \quad x 							&&\longrightarrow \varphi \\
+\text{Masse:}& \quad m   							&&\longrightarrow J \textit{(Trägheitsmoment)} &\\
+\text{Geschwindigkeit:}& \quad v=\dfrac{dx}{dt} 		&&\longrightarrow \omega \textit{(Winkelgeschwindigeit)}&\\
+\text{Beschleunigung:}& \quad a=\dfrac{d^2x}{dt^2} 	&&\longrightarrow \alpha \textit{(Winkelbeschleunigung)}&
 \end{align*}
 
 \begin{align*}
- \text{Newton:}& \quad m \cdot a 
- 	&&\Rightarrow J \cdot \alpha = J \dfrac{d\varphi}{dt} &\\
- \text{Dämpfungsgrad:}& \quad b \cdot v 
- 	&&\Rightarrow b \cdot \omega = J \dfrac{d^2\varphi}{dt^2} &\\
- \text{Beschleunigung:}& \quad k \cdot x 
- 	&&\Rightarrow k \cdot \varphi &
+\text{Newton:}& \quad m \cdot a  		&&\longrightarrow J \cdot \alpha = J \dfrac{d\varphi}{dt} &\\
+\text{Dämpfungsgrad:}& \quad b \cdot v  	&&\longrightarrow b \cdot \omega = b \dfrac{d^2\varphi}{dt^2} &\\
+\text{Beschleunigung:}& \quad k \cdot x 	&&\longrightarrow k \cdot \varphi &
 \end{align*}
 
 \begin{align}
@@ -167,6 +163,93 @@ R_{ges} = R_1 + R_2 + R_3
 \begin{align*}
 R_{3,min} = (0+\dots)\Omega &\Rightarrow R_{ges,min} = (6,45+\dots)k\Omega \\
 R_{3,max} = (10\mp\dots)k\Omega &\Rightarrow R_{ges,min} = (16,45\mp\dots)k\Omega
+\end{align*}
+
+\subsection{Aufgabe 3.2.3}
+
+\begin{align}
+\omega_{0,\textit{theor.}} = \sqrt{\dfrac{1}{LC}}= 1497,8318 \frac{rad}{s}
+\end{align}
+
+Fehlerrechnung:
+\begin{align*}
+\vert \frac{\partial}{\partial L}\omega_{0,\textit{theor.}}\vert = \frac{LC}{2L^2C} &\\
+\vert \frac{\partial}{\partial C}\omega_{0,\textit{theor.}}\vert = \frac{LC}{2LC^2} &
+\end{align*}
+\begin{align*}
+U_{\omega_{0,\textit{theor.}}} = \vert \frac{\partial}{\partial L}\omega_{0,\textit{theor.}}\vert \cdot U_L + \vert \frac{\partial}{\partial C}\omega_{0,\textit{theor.}}\vert \cdot U_C = 140,841 \frac{rad}{s} \approx 150 \frac{rad}{s}
+\end{align*}
+
+\begin{align*}
+\Rightarrow \omega_{0,\textit{theor.}} = (1490 \mp 150) \frac{rad}{s}
+\end{align*}
+
+\section{test}
+\subsection{Aufgabe 3.2.4}
+
+\begin{align}
+\delta_{\textit{theor.}} = \dfrac{R}{2L}= 151,3453
+\end{align}
+
+Fehlerrechnung:
+\begin{align*}
+\vert \frac{\partial}{\partial R}\delta_{\textit{theor.}}\vert = \frac{1}{2L} &\\
+\vert \frac{\partial}{\partial L}\delta_{\textit{theor.}}\vert = \frac{R}{2L^2} &
+\end{align*}
+\begin{align*}
+U_{\delta_{\textit{theor.}}} = \vert \frac{\partial}{\partial R}\delta_{\textit{theor.}}\vert \cdot U_R + \vert \frac{\partial}{\partial L}\delta_{\textit{theor.}}\vert \cdot U_L = 11,4863 \approx 12 
+\end{align*}
+
+\begin{align*}
+\Rightarrow \delta_{\textit{theor.}} = (151 \mp 12) \frac{rad}{s}
+\end{align*}
+
+\subsection{Aufgabe 3.2.5}
+
+\begin{align}
+\omega_{D,\textit{theor.}} = \sqrt{\omega_{0,\textit{theor.}}^2 - \delta_{\textit{theor.}}^2} = 1482,329 \frac{rad}{s}
+\end{align}
+
+Fehlerrechnung:
+\begin{align*}
+\vert \frac{\partial}{\partial \omega_{0,\textit{theor.}}}\omega_{D,\textit{theor.}}\vert = \frac{\omega_{0,\textit{theor.}}}{\sqrt{\omega_{0,\textit{theor.}}^2 - \delta_{\textit{theor.}}^2}} &\\
+\vert \frac{\partial}{\partial \delta_{\textit{theor.}}}\omega_{D,\textit{theor.}}\vert = \frac{\delta_{\textit{theor.}}}{\sqrt{\omega_{0,\textit{theor.}}^2 - \delta_{\textit{theor.}}^2}} &
+\end{align*}
+\begin{align*}
+U_{\omega_{D,\textit{theor.}}} = \vert \frac{\partial}{\partial \omega_{0,\textit{theor.}}}\omega_{D,\textit{theor.}}\vert \cdot U_{\omega_{0,\textit{theor.}}} + \vert \frac{\partial}{\partial \delta_{\textit{theor.}}}\omega_{D,\textit{theor.}}\vert \cdot U_{\delta_{\textit{theor.}}} = 151,9716 \approx 160
+\end{align*}
+
+\begin{align*}
+\Rightarrow \omega_{D,\textit{theor.}} = (1480 \mp 160) \frac{rad}{s}
+\end{align*}
+
+\subsection{Aufgabe 3.2.6}
+
+\begin{align}
+\text{Aperiodicher Genzfall:} \quad \omega_{0,\textit{theor.}}^2 = \delta_{\textit{theor.}}^2
+\end{align}
+
+\begin{align*}
+(\omega_{0,\textit{theor.}} \text{ist unabhängig von R}) \quad \text{und} \quad
+\delta_{\textit{theor.}} = \frac{R}{2L}
+\end{align*}
+
+\begin{align}
+\omega_{0,\textit{theor.}}^2 = \frac{R^2}{4L^2} \quad \Rightarrow \quad R_{\textit{grenz,theor.}} &= \omega_{0,\textit{theor.}} \cdot 2L = 13290,8 \Omega
+\end{align}
+
+
+Fehlerrechnung:
+\begin{align*}
+\vert \frac{\partial}{\partial \omega_{0,\textit{theor.}}}R_{\textit{grenz,theor.}}\vert = 2 \cdot L &\\
+\vert \frac{\partial}{\partial L}R_{\textit{grenz,theor.}}\vert = 2 \cdot \omega_{0,\textit{theor.}} &
+\end{align*}
+\begin{align*}
+U_{R_{\textit{grenz,theor.}}} = \vert \frac{\partial}{\partial \omega_{0,\textit{theor.}}}R_{\textit{grenz,theor.}}\vert \cdot U_{\omega_{0,\textit{theor.}}} + \vert \frac{\partial}{\partial L}R_{\textit{grenz,theor.}}\vert \cdot U_L = 1840,60 \approx 1900 
+\end{align*}
+
+\begin{align*}
+\Rightarrow R_{\textit{grenz,theor.}} = (13,3 \mp 1,9) k \Omega
 \end{align*}
 
 \end{document}
