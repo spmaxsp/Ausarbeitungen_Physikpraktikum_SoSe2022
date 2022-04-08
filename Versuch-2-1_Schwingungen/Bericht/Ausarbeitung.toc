@@ -1,14 +1,25 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Häusliche Vorarbeit:}{1}{}%
-\contentsline {subsection}{\numberline {1.1}Aufgabe 3.1.1}{1}{}%
-\contentsline {subsection}{\numberline {1.2}Aufgabe 3.1.2}{1}{}%
-\contentsline {subsection}{\numberline {1.3}Aufgabe 3.1.3}{2}{}%
-\contentsline {subsection}{\numberline {1.4}Aufgabe 3.1.3}{2}{}%
-\contentsline {subsection}{\numberline {1.5}Aufgabe 3.2.1}{2}{}%
-\contentsline {subsection}{\numberline {1.6}Aufgabe 3.2.2}{3}{}%
-\contentsline {subsection}{\numberline {1.7}Aufgabe 3.2.3}{3}{}%
-\contentsline {section}{\numberline {2}test}{3}{}%
-\contentsline {subsection}{\numberline {2.1}Aufgabe 3.2.4}{3}{}%
-\contentsline {subsection}{\numberline {2.2}Aufgabe 3.2.5}{4}{}%
-\contentsline {subsection}{\numberline {2.3}Aufgabe 3.2.6}{4}{}%
+\contentsline {section}{\numberline {1}Häusliche Vorarbeit}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Mechanischer Oszillator}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.1}Aufgabe 3.1.1: Gleichung Rotationsschwinger}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.2}Aufgabe 3.1.2: Drehfederkonstante des Schwingers}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.3}Aufgabe 3.1.3: Bestimmung der Massenträgheitsmomente}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.4}Aufgabe 3.1.4: Berechnung der Eigenfrequenz}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Elektrischer Oszillator}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Aufgabe 3.2.1: Ersatzwiderstand der Spule}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}Aufgabe 3.2.2: Gesamtwiderstand}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Aufgabe 3.2.3: Eigenfrequenz ohne Dämpfung}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.4}Aufgabe 3.2.4: Abklingkoeffizient}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.5}Aufgabe 3.2.5: gedämpfte Eigenfrequenz}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.6}Aufgabe 3.2.6: Gesamtwiderstand beim aperiodischer Grenzfall}{5}{}%
+\contentsline {subsubsection}{\numberline {1.2.7}Aufgabe 3.2.6: Funktion des Tasters}{5}{}%
+\contentsline {section}{\numberline {2}Auswertung Versuch}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Mechanischer Oszillator}{5}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Bremsstrom 0A - freie Schwingung}{5}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Bremsstrom 0,5A - gedämpfte Schwingung}{6}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}Bremsstrom 2,1A - aperiodischer Grenzfall}{7}{}%
+\contentsline {subsubsection}{\numberline {2.1.4}Bremsstrom 2,5A - Kriechfall}{7}{}%
+\contentsline {subsection}{\numberline {2.2}Elektrischer Oszillator}{8}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Schwingfall}{8}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Aperiodischer Grenzfall}{9}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
