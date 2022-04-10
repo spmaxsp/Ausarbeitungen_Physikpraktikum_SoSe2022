@@ -73,143 +73,37 @@ Der Versuch handelt sowohl von der messtechnischen als auch der theoretischen Be
 \newpage
 
 \section{Theorie}
-Periodische Zustandsänderungen zwischen zwei oder mehreren Zuständen, nennt man Schwingungen. [3]
-Dabei wird Energie wird zwischen Energiereservoirs periodisch hin- und herbewegt, wodurch die Schwingung entsteht.
-Meist wird eine einmalige Energie, in Form von elektrischer oder
-mechanischer Energie zugeführt und anschließend das System sich selbst überlassen, wodurch eine sogenannte freie Schwingung entsteht. [2]
+\subsection{Stehende Welle}
+Bei einer stehenden Welle handelt es sich um ein physikalisches Phänomen, bei der gleichartige (gleiche Frequenz, gleiche Amplitude, gleicher Phasenwinkel, gleiche Wellenlänge) Wellen entgengesetzt verlaufen und sich überlagern. [3] Ein typisches Beispiel das wir im folgenden näher betrachten wollen, ist die Schwingung eines Seiles an einem festen Ende.
+Bei diesem Versuch wird ein Seil am losen Ende in Schwingung versetzt, welche bis zum festen Ende verläuft und an diesem reflektiert wird. Die reflektierte Welle besitzt immernoch die gleiche Frequenz, Amplitude und Wellenlänge. Die sich entgegen laufenden Wellen interferieren miteinander [7]. Wie in Abbildung \ref{fig:steh-welle-print} zu sehen, hat die resultierende stehende Welle ein größere Amplitude als die Ursprungswellen.\\
+Ein charakteristisches Merkmal der stehenden Welle ist, dass sich die Knoten und Bäuche immer an der gleichen Stelle befinden. Durch Änderung der Frequenz lässt sich die Wellenlänge und somit die Anzahl der Knoten und Bäuche variieren. [7]
+\begin{figure}[H]
+\includegraphics[width=12cm]{steh-welle-print}
+\centering
+\caption{Stehende Welle [6]}
+\centering
+\label{fig:steh-welle-print}
 
-\subsection{Mechanischer Oszillator}
-Am einfachsten lassen sich Schwingungen an einem mechanischen Oszillator, wie in diesem Fall einem Federpendel (im Versuch ein Rotationsschwinger), erläutern. Ein Feder-Masse-Schwinger besteht aus einer Masse auf einer waagrechten, reibungsfreien Unterlage, welche an einer Feder befestigt ist. Dabei wird die potenzielle Energie der Feder in die kinetische Energie der Masse und umgekehrt gewandelt [3].
-
-%\begin{figure}[H]
-%\includegraphics[width=4cm]{Grafik_Federpendel}
-%\centering
-%\caption{Federpendel [1]}
-%\centering
-%\end{figure}
-
-Wird die Masse wie zuvor beschrieben ausgelenkt, also Energie zugeführt, und anschließend losgelassen, so schwingt das System um den Grundzustand. 
-Über die Zeit betrachtet, führt die Masse eine Sinusschwingung aus, mit welcher sich allgemein Schwingungen beschreiben lassen:
-
-\begin{align}
-y(t) = \widehat{y} = sin(\omega_0 t )
-\end{align}
-
-
-Dabei ist $\widehat{y}$ die Amplitude, also die Auslenkung der Schwingung und $\omega_0$ die Kreisfrequenz mit welcher das System schwingt. 
-Diese Berechnet sich aus der Frequenz, bzw. der Periodendauer [3]:
+\end{figure}
+\subsection{Beugung am Doppelspalt}
+Früher wurde von Licht als Teilchen ausgegangen. Bei dem Versuch am Doppelspalt zeigte sich jedoch, dass diese Modell nicht ausreichend war. Beleuchtet man nämlich eine Platte mit zwei sehr dünnen Spalten, lässt sich auf der anderen Seite ein streifenartiges Muster erkennen. Wäre das Teilchenmodell für Licht ausreichend, wären auf dem Schirm nur zwei Streifen Licht zu erkennen, an den Stellen der Spalten. Dieses Muster lässt also darauf schließen, dass Licht mehr als nur ein Teilchen ist.\\
+Das an dem Spalt ankommende Licht wird wie eine Welle gebeugt und gelangt somit auch an stellen, an denen nach dem Teilchenmodell Schatten wären. Somit kann im weiteren Verlauf von Licht im Wellencharakter ausgegangen werden. Mit dem Huygenschen Prinzip ist somit davon auszugehen, dass sich hinter dem Doppelspalt durch die antreffende Welle, neue Elementarwellen ausbreiten. [2]
+Diese sich nun kugelförmig ausbreitende Wellenfront interferiert an den Stellen der Maxima und Minima miteinander.\\
+Bei dem aufeinander treffen von einem Minima und einem Maxima heben sich die beiden Wellen gegenseitig auf, man spricht hierbei destruktiver Interferenz. Der entgegengesetzten Fall wird konstruktive Interferenz genannt, bei diesem verstärken sich immer zwei Wellenberge oder Täler.
+An der Stellen des Schirms zwischen den beiden Spalten tritt die konstruktive Interferenz auf Grund der Anzahl an Elementarwellen vermehrt auf, somit ist auch die sichtbare Intensität am Schirm deutlich zu erkennen, im Vergleich zu den Randmaximas.\\
+ \\
+ \\
+Die Bedingung für diese konstruktive Interferenz lautet:
 
 \begin{align}
-T = \frac{1}{f}
-\omega_0 = 2\pi \cdot f = \frac{2\pi}{T}
+\Delta s = m \cdot \lambda
 \end{align}
-
-Für jedes schwingende System lässt sich eine Differentialgleichung aufstellen, mit welchem sich die verschiedenen wirkenden Kräfte beschreiben lassen. Für das lineare Feder-Masse-System ohne Dämpfung gilt: [2]
-
-\begin{align}
-F_a &= F_k &\\
-\text{nach dem 2. Newtonsche Axiom gilt für die Masse:} F_a &= m \cdot a &\\
-\text{und für die Federkraft das Hookesches Gesetz:} F_k &= -k \cdot y &
-\end{align}
-
-Durch einsetzen erhält man ein Gleichungssystem:
-
-\begin{align}
--ky &= ma \\
-m \frac{\partial y}{\partial t} + ky &= 0
-\end{align}
-
-Mit dem Ansatz $y(t) = \widehat{y_0} \cdot cos(\omega_0 t + \varphi_0)$ ergibt sich für das DGL.:
-
-\begin{align}
-\omega_0 = \sqrt{\dfrac{k}{m}}
-\end{align}
-
-Bei dem vorherigen System handelt es sich um eine freie ungedämpfe Schwingung. Diese gibt es in der Realität nur selten. Darum wird als nächstes die freie, gedämpfte Schwingung betrachtet.
-Bei dieser wirkt eine Kraft, welche sich proportional zur Geschwindigkeit verhält und dem System Energie entzieht.
-
-\begin{align}
-F_D = -b \cdot v
-\end{align}
-
-Dabei ist b die Dämpfungskonstante. \\ 
-Für die gedämpfte Schwingung lässt sich das DGL. um diesen Teil erweitern, wodurch sich folgendes Gleichungssystem ergibt.
-
-\begin{align}
-m \ddot{y} + d \dot{y} + k y = 0 
-\end{align}
-
-Der Ansatz für dises DGL. ist:
-
-\begin{align}
-y(t) = \widehat{y_0} e^{\delta t} cos(\omega_d t + \varphi_0)
-\end{align}
-
-Daraus als Lösung ergibt sich:
-
-\begin{align}
-\omega_d = \sqrt{\omega_0^2 - \delta^2} &\\
-\delta = \dfrac{d}{2m} &\\
-\omega_0 = \sqrt{\dfrac{k}{m}}
-\end{align}
-
-Dabei ist $\delta$ der Abklingkoeffizient. \\ \\
-
-Abhängig von $\delta$ im Vergleich zu $\omega_0$ ergeben sich drei Fälle:
-
-\textbf{Schwingfall:}\\
-Wenn $\omega_0 > \delta$ schwingt das System mit abnehmender Amplitude und kann mit der Bewegungsgleichung
-
-\begin{align}
-y(t) = \widehat{y_0} e^{\delta t} cos(\omega_d t + \varphi_0)
-\end{align}
-
-beschrieben werden. [1]\\ 
-
-\textbf{aperiodischer Genzfall:}\\
-Wenn $\omega_0 = \delta$ schwingt das System nicht. Die Auslenkung strebt schnellstmöglich gegen Null. [1]\\
-
-\textbf{Kriechfall:}\\
-Wenn $\omega_0 < \delta$ schwingt das System ebenfalls nicht. Die Amplitude nimmt ganz langsam ab und erreicht asymptotisch die Null. [1]\\
-
-
-Das folgende Diagramm zeigt das Verhalten bei den jeweiligen drei Fällen:
-
-%\begin{figure}[H]
-%\includegraphics[width=8cm]{Grafik_Fälle-Schwingungen}
-%\centering
-%\caption{Die drei Fälle der gedämpften Schwingung [1]}
-%\centering
-%\end{figure}
-
-\subsection{Elektrischer Oszillator}
-Der elektrische Oszillator ist dem mechanischen sehr ähnlich. Auch hier wird Ladungsenergie zwischen Kondensator und Spule stetig verschoben. Als Dämpfung wirkt der ohmsche Widerstand. 
-
-In dem dargestellten Schwingkreis muss [3]:
-\begin{align}
-U_L + U_R + U_C = 0
-\end{align}
-
-Durch einsetzen der Strom- Spannungsabhängigkeiten für Widerstand, Spule und Kondensator [3]:
-\begin{align}
-U_L = L \cdot \frac{\partial i}{\partial t} &\\
-U_C = \frac{1}{C} \cdot q &\\
-U_R = R \cdot i &\\
-\text{und:} \frac{\partial q}{\partial t} = i &
-\end{align}
-
-ergibt sich das DGL. [1]:
-\begin{align}
-L \cdot \frac{\partial^2 q}{\partial t^2} + R \cdot \frac{\partial q}{\partial t} + \frac{1}{c} \cdot q = 0
-\end{align}
-
-dessen Lösungen sind analog zu der mechanischen Schwingung [1]:
-\begin{align}
-\omega_d = \sqrt{\omega_0^2 - \delta^2} &\\
-\delta = \dfrac{R}{2L} &\\
-\omega_0 = \sqrt{\dfrac{1}{L \cdot C}}
-\end{align}
-
+mit
+\begin{align*}
+\Delta s \qquad &\text{Strecke}\\
+m \qquad &\text{Ordnung des Maximums (0,1,2,3...)}\\
+\lambda \qquad &\text{Wellenlänge}\\
+\end{align*}
 \newpage
 
 \section{Häusliche Vorarbeit}
@@ -527,7 +421,9 @@ $[$1$]$ Skript: Versuch 2.2 - Stehende Wellen und Beugung am Doppelspalt \\
 $[$2$]$ Vorlesungsfolien: 1. Semester Physik, Herr Prof. Kaloudis \\
 $[$3$]$ Hering, Ekbert ; Martin, Rolf ; Stohrer, Martin: Physik für Ingenieure. Springer-Verlag \\
 $[$4$]$ Abbildung~\ref{fig:skizzeDoppelspalt}: Skizze - Beugung am Doppelspalt von \href{http://aviacia.info/p/beugung-am-gitter-4265}{http://aviacia.info} (08.04.2022)\\
-$[$5$]$ Formeln + Hilfen Höhere Mathematik, G.Merziger; G.Mühlbach; D.Wille; T.Wirth, Binomi Verlag (8. Auflage)
+$[$5$]$ G.Merziger; G.Mühlbach; D.Wille; T.Wirth: Formeln + Hilfen Höhere Mathematik, Binomi Verlag (8. Auflage)\\
+$[$6$]$ Abbildung \ref{fig:steh-welle-print}: Stehende Welle von \href{https://www.abiweb.de/assets/courses/media/steh-welle-print.png}{https://www.abiweb.de} (08.04.2022)\\
+$[$7$]$ \href{https://www.uni-muenster.de/imperia/md/content/fachbereich_physik/didaktik_physik/materialien/materialaltmeyer/schwingungen_wellen.pdf}{https://www.uni-muenster.de} (08.04.2022)\\
 
 
 \label{LastPage}
