@@ -2,3 +2,6 @@
 *.gitkeep
 *.gz
 *.aux
+*.fdb_latexmk
+*.fls
+*.out
