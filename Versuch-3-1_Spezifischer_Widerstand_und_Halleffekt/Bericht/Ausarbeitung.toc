@@ -1,0 +1,21 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{2}{}%
+\contentsline {section}{\numberline {2}Theorie}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Messung Spezifischer Widerstand}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Halleffekt}{3}{}%
+\contentsline {section}{\numberline {3}Häusliche Vorarbeit}{4}{}%
+\contentsline {section}{\numberline {4}Aufbau und Durchführung}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Mechanischer Oszillator}{5}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Aufbau}{5}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Durchführung}{5}{}%
+\contentsline {subsection}{\numberline {4.2}Elektrischer Oszillator}{5}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Aufbau}{5}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}Durchführung}{5}{}%
+\contentsline {section}{\numberline {5}Auswertung Versuch}{6}{}%
+\contentsline {subsection}{\numberline {5.1}Mechanischer Oszillator}{6}{}%
+\contentsline {subsection}{\numberline {5.2}Elektrischer Oszillator}{6}{}%
+\contentsline {section}{\numberline {6}Wertung/Fazit}{7}{}%
+\contentsline {subsection}{\numberline {6.1}Mechanischer Oszillator}{7}{}%
+\contentsline {subsection}{\numberline {6.2}Elektrischer Oszillator}{7}{}%
+\contentsline {section}{\numberline {7}Literatur}{8}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

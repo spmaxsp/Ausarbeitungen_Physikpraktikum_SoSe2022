@@ -1,0 +1,176 @@
+% --------------------- VARIABLEN -------------------------
+
+\newcommand{\COURSE}{Physik und Materialwissenschaften\\ Praktikum Physik \\}
+\newcommand{\SEMESTER}{Elektro- und Informationstechnik II}
+\newcommand{\STUDENT}{Maximilian Spahn\\ und\\Benjamin Langer}
+
+\newcommand{\HEADDING}{Praktikum Physik}
+\newcommand{\SUBHEADDING}{Versuch 3.1: Spezifischer Widerstand und Halleffekt}
+
+% ------------------- DEFINITIONEN -----------------------
+
+\documentclass[a4paper]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{float}
+\usetikzlibrary{arrows,decorations.markings}
+\usepackage{tabularx}
+\usepackage{fancybox}
+\usepackage{pgfplots}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage[page]{totalcount}
+
+%Größe der Ränder setzen
+\geometry{a4paper,left=2cm, right=2cm, top=3cm, bottom=2cm, headheight=8cm}
+
+%Kopf- und Fußzeile
+\pagestyle {fancy}
+\fancyhf{}
+\fancyhead[L]{\STUDENT}
+\fancyhead[C]{\COURSE}
+\fancyhead[R]{\today}
+
+\fancyfoot[L]{\SEMESTER}
+\fancyfoot[C]{}
+\fancyfoot[R]{Seite \thepage /\pageref{LastPage}}
+
+%Formatierung der Überschrift, hier nichts ändern
+\def\header#1#2{
+  \begin{center}
+    {\Large #1}\\
+    {#2}
+  \end{center}
+}
+
+\numberwithin{equation}{subsection}
+
+\setlength\parindent{0pt}
+
+% ----------------------- DOCUMENT ---------------------------
+
+\begin{document}
+
+\vspace{10pt}
+\header{\HEADDING}{\SUBHEADDING}
+
+\tableofcontents
+
+\newpage
+
+\section{Einleitung}
+Die beiden Versuche behandeln die verschieden Größen von .............
+
+\newpage
+
+\section{Theorie}
+Leitfähigkeit:
+Der elektrische Strom wird durch die Bewegung von Ladungsträgern durch einen Leiter definiert.
+Somit ergibt sich die Leitfähigkeit xxxxxx eines Materials aus der Menge der verfügbaren, freien Ladungsträger, deren Ladung und deren Beweglichkeit.
+
+Formel
+
+Driftgeschwindigkeit:
+Als Beweglichkeit ist die Geschwindigkeit des Ladungsträgers definiert. Wenn sich die Elektronen durch den Leiter bewegen, stoßen diese permanent mit den Atomrümpfen zusammen und werden so ausgebremst. Die mittlere Geschwindigkeit also die Driftgeschwindigkeit ist für den spezifischen Widerstand mit verantwortlich.
+
+Der  Elektrische Widerstand:
+Der Elektrische Widerstand ergibt sich aus dem Kehrwert der Leitfähigkeit also xxxx geteilt durch die Fläche.
+Wird die Querschnittsfläche des Leiters größer kann sich der Storm sich mehr verteilen und der Widerstand wird kleiner.
+
+Leitungsbänder:
+Ein weiterer Faktor für die Leitfähigkeit ist die Anzahl der freien Ladungsträger, für 
+Die Elektronen sind um Atome in Atomorbitalen angeordnet. Dabei beschreiben Atomorbitale, Orte um den Atomrumpf, in welchem sich Elektronen aufhalten dürfen. Durch das Überlappen einer großen Anzahl an Atomorbitalen in Bindungen entstehen Bänder.
+Bänder beschreiben kontinuierliche Zustände in welchen sich die Elektronen aufhalten können.
+Das Valenzband ist das höchste vollbesetzte Elektronen-Energieband. Das Leitungsband ist das nächst höher gelegene Band.
+Damit ein Elektron ein freier Ladungsträger wird, muss es in ein unbesetztes Leitungsband springen. 
+
+Bild
+
+Bei Metallischen Leiter, ist das Leitungsband teilweise gefüllt oder grenzt direkt an das Valenzband, somit ist zur Bewegung der Elektronen eine geringe Energie nötig.
+
+Bild
+
+Bei Isolatoren dagegen ist eine große Energiedifferenz zu dem unbesetztes Leitungsband (Bandlücke), sodass diese keine freien Ladungsträger haben können.
+
+Bild
+
+Spezifischer Widerstand und Flächenwiderstand nach van der Pauw
+
+
+Halbleiter
+Halbleiter haben eine eher große Bandlücke, die das Valenzband von dem Leitungsband trennt.
+Die Elektronen benötigen also eine bestimme Energie um die Bindung zu verlassen und als freie Ladungsträger zu agieren
+Wird ein Elektron in das Leitungsband gehoben entsteht ein Loch
+Sowohl die Bewegung des freien Elektrons sowie die Bewegung des Lochs tragen zur Leitfähigkeit bei.
+
+Dotierung:
+Dotierung: einbringen von anderen Atomen mit mehr oder weniger Valenzelektronen als das Wirtsgitter.
+Die zusätzlichen Elektronen lassen sich leichter lösen als die Bildungselektronen
+n-Dotierung: überzähliges Elektron: Donatorniveau liegt näher am Leitungsband→ weniger Energie
+p-Dotierung: fehlendes Valenzelektron: Akzeptorniveau liegt näher am Valenzband → weniger Energie
+Durch eine Dotierung verschiebt sich die Fermi-Energie zwischen das Donatorniveau und Leitungsband bwz. dem Akzeptorniveau und dem Valenzband
+
+Lorentzkraft
+Ladungsträger, die sich mit einer Geschwindigkeit xxxx durch ein Magnetfeld xxxx bewegen, werden
+durch die Lorentzkraft abgelenkt. 
+Die Richtung der Lorentzkraft ergibt sich aus dem Vorzeichen der Ladung q und dem Vek-
+torprodukt
+
+formel
+
+Durch die Ablenkung der Elektronen im Magnetfeld entsteht auf der linken Seite des Halbleiters
+ein Überschuss an Elektronen; sie lädt sich negativ auf. Auf der Gegenseite verbleibt die positive
+Ladung der ortsfesten Donatoren. 
+
+Berechnung der Hall-Spannung UH 
+
+
+\subsection{Messung Spezifischer Widerstand}
+
+\subsection{Halleffekt}
+
+\newpage
+
+\section{Häusliche Vorarbeit}
+
+\newpage
+
+\section{Aufbau und Durchführung}
+\subsection{Mechanischer Oszillator}
+\subsubsection{Aufbau}
+\subsubsection{Durchführung}
+
+\subsection{Elektrischer Oszillator}
+\subsubsection{Aufbau}
+\subsubsection{Durchführung}
+
+\newpage
+
+\section{Auswertung Versuch}
+\subsection{Mechanischer Oszillator}
+\subsection{Elektrischer Oszillator}
+
+\newpage
+
+\section{Wertung/Fazit}
+\subsection{Mechanischer Oszillator}
+\subsection{Elektrischer Oszillator}
+
+\newpage
+
+\section{Literatur}
+$[$1$]$ Skript: Versuch 2.1 - Schwingungen \\
+$[$2$]$ Vorlesungsfolien: 1. Semester Physik, Herr Prof. Kaloudis \\
+$[$3$]$ Hering, Ekbert ; Martin, Rolf ; Stohrer, Martin: Physik für Ingenieure. Springer-Verlag
+
+\label{LastPage}
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
