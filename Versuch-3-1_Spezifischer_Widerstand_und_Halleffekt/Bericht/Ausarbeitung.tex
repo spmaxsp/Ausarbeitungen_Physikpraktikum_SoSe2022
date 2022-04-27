@@ -24,6 +24,7 @@
 \usepackage{pgfplots}
 \usepackage{geometry}
 \usepackage{fancyhdr}
+
 \usepackage[page]{totalcount}
 
 %Größe der Ränder setzen
@@ -50,6 +51,9 @@
 
 \numberwithin{equation}{subsection}
 
+\nocite{*}
+\bibliographystyle{plain}
+
 \setlength\parindent{0pt}
 
 % ----------------------- DOCUMENT ---------------------------
@@ -67,13 +71,15 @@
 Die Beiden Versuche, welche in dieser Ausarbeitung behandelt werden, beschäftigen sich mit den elektrischen Eigenschaften von Halbleitern. Im ersten Behandeten Versuch wird dazu das Verhalten von Halbleitern anhand des Hall-Effekts veranschaulicht, also wie Elektronen in dem Halbleiter sich mit einer bestimmten Geschwindigkeit (Driftgeschwindigkeit) bewegen und somit auch durch die Lorenzkraft abgelenkt werden können. In der Theorie wird hierbei zusätzlich auch die Funktionsweise von elektrischen Leitern bis hin zu Halbleitern erklärt.
 Ebenso wird in diesem Zusammenhang die Messung des spezifischen Widerstandes beleuchtet.
 
-Hier kommt die Einleitung für den Zweiten Versuch
+Hier kommt die Einleitung für den Zweiten Versuch \cite{tipler}
+\cite{werk}
+\cite{anl}
+\cite{hering}
 
 \newpage
 
 \section{Theorie}
 \subsection{Leitfähigkeit von Materialien}
-
 Der elektrische Strom wird durch die Bewegung von Ladungsträgern durch einen Leiter definiert.
 Somit ergibt sich die Leitfähigkeit xxxxxx eines Materials aus der Menge der verfügbaren, freien Ladungsträger, deren Ladung und deren Beweglichkeit.
 
@@ -103,8 +109,6 @@ Bei Isolatoren dagegen ist eine große Energiedifferenz zu dem unbesetztes Leitu
 
 Bild
 
-Spezifischer Widerstand und Flächenwiderstand nach van der Pauw
-
 \subsection{Halbleiter}
 Halbleiter haben eine eher große Bandlücke, die das Valenzband von dem Leitungsband trennt.
 Die Elektronen benötigen also eine bestimme Energie um die Bindung zu verlassen und als freie Ladungsträger zu agieren
@@ -121,13 +125,13 @@ Durch eine Dotierung verschiebt sich die Fermi-Energie zwischen das Donatornivea
 \subsubsection{pn-Übergang}
 hier kommt die Erklärung zum pn-Übergang und was sonst so noch allgemein für Halbleiter erklärt werden muss
 
-\subsection{Messung Spezifischer Widerstand}
+\subsection{Messung Spezifischer Widerstand nach van der Pauw}
 
 \subsection{Halleffekt}
-Der Halleffekt basiert gundsätzlich auf der Lroenzkraft, welche auf die Elektronen in einem im Magnetfeld befindlichen Halbleiter wirkt
+Der Halleffekt basiert grundsätzlich auf der Lroenzkraft, welche auf die Elektronen in einem, im Magnetfeld befindlichen, Halbleiter wirkt.
 
 \subsubsection{Lorentzkraft}
-Ladungsträger, die sich mit einer Geschwindigkeit xxxx durch ein Magnetfeld xxxx bewegen, werden
+Ladungsträger, die sich mit einer Geschwindigkeit $\overrightarrow{v}$ durch ein Magnetfeld $\overrightarrow{B}$ bewegen, werden
 durch die Lorentzkraft abgelenkt. 
 Die Richtung der Lorentzkraft ergibt sich aus dem Vorzeichen der Ladung q und dem Vek-
 torprodukt
@@ -179,12 +183,14 @@ Ladung der ortsfesten Donatoren.
 
 \newpage
 
-\section{Literatur}
-$[$1$]$ Skript: Versuch 2.1 - Schwingungen \\
-$[$2$]$ Vorlesungsfolien: 1. Semester Physik, Herr Prof. Kaloudis \\
-$[$3$]$ Hering, Ekbert ; Martin, Rolf ; Stohrer, Martin: Physik für Ingenieure. Springer-Verlag
-
 \section{Brauchen wir einen Anhang für Tabellen?}
+
+\newpage
+
+\bibliography{literatur}
+
+
+
 
 \label{LastPage}
 \end{document}
