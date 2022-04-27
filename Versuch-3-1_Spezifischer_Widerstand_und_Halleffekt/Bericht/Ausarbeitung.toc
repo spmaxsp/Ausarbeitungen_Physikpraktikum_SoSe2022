@@ -1,0 +1,27 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{2}{}%
+\contentsline {section}{\numberline {2}Theorie}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Leitfähigkeit von Materialien}{3}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Driftgeschwindigkeit}{3}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Der Elektrische Widerstand}{3}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}Leitungsbänder}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Halbleiter}{3}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Dotierung}{3}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}pn-Übergang}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Messung Spezifischer Widerstand nach van der Pauw}{4}{}%
+\contentsline {subsection}{\numberline {2.4}Halleffekt}{4}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Lorentzkraft}{4}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Berechnung der Hall-Spannung}{4}{}%
+\contentsline {subsection}{\numberline {2.5}Was auch immer Versuch 2 ist}{4}{}%
+\contentsline {section}{\numberline {3}Versuch 3.1 Spezifischer Widerstand und Halleffekt}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Häusliche Vorarbeit}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Aufbau und Durchführung}{6}{}%
+\contentsline {subsection}{\numberline {3.3}Auswertung Versuch}{7}{}%
+\contentsline {subsection}{\numberline {3.4}Wertung/Fazit}{8}{}%
+\contentsline {section}{\numberline {4}Versuch 3.2 pn-Übergang... oder so... hab kein plan}{9}{}%
+\contentsline {subsection}{\numberline {4.1}Häusliche Vorarbeit}{9}{}%
+\contentsline {subsection}{\numberline {4.2}Aufbau und Durchführung}{10}{}%
+\contentsline {subsection}{\numberline {4.3}Auswertung Versuch}{11}{}%
+\contentsline {subsection}{\numberline {4.4}Wertung/Fazit}{12}{}%
+\contentsline {section}{\numberline {5}Brauchen wir einen Anhang für Tabellen?}{13}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
