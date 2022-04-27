@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {2.2}Halbleiter}{3}{}%
 \contentsline {subsubsection}{\numberline {2.2.1}Dotierung}{3}{}%
 \contentsline {subsubsection}{\numberline {2.2.2}pn-Übergang}{4}{}%
-\contentsline {subsection}{\numberline {2.3}Messung Spezifischer Widerstand}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Messung Spezifischer Widerstand nach van der Pauw}{4}{}%
 \contentsline {subsection}{\numberline {2.4}Halleffekt}{4}{}%
 \contentsline {subsubsection}{\numberline {2.4.1}Lorentzkraft}{4}{}%
 \contentsline {subsubsection}{\numberline {2.4.2}Berechnung der Hall-Spannung}{4}{}%
@@ -23,5 +23,5 @@
 \contentsline {subsection}{\numberline {4.2}Aufbau und Durchführung}{10}{}%
 \contentsline {subsection}{\numberline {4.3}Auswertung Versuch}{11}{}%
 \contentsline {subsection}{\numberline {4.4}Wertung/Fazit}{12}{}%
-\contentsline {section}{\numberline {5}Literatur}{13}{}%
+\contentsline {section}{\numberline {5}Brauchen wir einen Anhang für Tabellen?}{13}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
