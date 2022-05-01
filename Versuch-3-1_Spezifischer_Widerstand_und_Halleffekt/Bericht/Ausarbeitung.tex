@@ -69,7 +69,7 @@
 \newpage
 
 \section{Einleitung}
-Die Beiden Versuche, welche in dieser Ausarbeitung behandelt werden, beschäftigen sich mit den elektrischen Eigenschaften von Halbleitern. Im ersten behandeten Versuch wird dazu das Verhalten von Halbleitern anhand des Hall-Effekts veranschaulicht, also wie Elektronen in dem Halbleiter sich mit einer bestimmten Geschwindigkeit (Driftgeschwindigkeit) bewegen und somit auch durch die Lorenzkraft abgelenkt werden können. In der Theorie wird hierbei zusätzlich auch die Funktionsweise von elektrischen Leitern bis hin zu Halbleitern erklärt.
+Die beiden Versuche, welche in dieser Ausarbeitung behandelt werden, beschäftigen sich mit den elektrischen Eigenschaften von Halbleitern. Im ersten behandeten Versuch wird dazu das Verhalten von Halbleitern anhand des Hall-Effekts veranschaulicht, also wie Elektronen in dem Halbleiter sich mit einer bestimmten Geschwindigkeit (Driftgeschwindigkeit) bewegen und somit auch durch die Lorentzkraft abgelenkt werden können. In der Theorie wird hierbei zusätzlich auch die Funktionsweise von elektrischen Leitern, bis hin zu Halbleitern erklärt.
 Ebenso wird in diesem Zusammenhang die Messung des spezifischen Widerstandes beleuchtet.
 
 %TODO Hier kommt die Einleitung für den Zweiten Versuch 
@@ -182,7 +182,7 @@ R_{AB,DC} = \frac{U_{DC}}{I_{AB}}
 
 Darauf wird dementsprechend in Strom über die Kontakte B und C eingeprägt und die Spannung über A und D gemessen. Darus ergibt sich der Widerstand $R_{BC,AD}$ \cite{anl} \\
 
-Mit den Beiden Widerständen lässt sich anschließend nach van der Pauw der Flächenwiderstand berechnen. \cite{anl}
+Mit den beiden Widerständen lässt sich anschließend nach van der Pauw der Flächenwiderstand berechnen. \cite{anl}
 
 \begin{align}
 R_{\square} = \frac{\pi}{ln(2)} \cdot \frac{(R_{AB,DC}+R_{BC,AD})}{2} \cdot f(x)
@@ -203,7 +203,7 @@ f(x) = 1 - z - \left( 1-\frac{ln(2)}{3}\right)  \cdot z^2 - \left( 2 - \frac{4}{
 \end{align}
 
 \subsection{Halleffekt}
-Der Halleffekt basiert grundsätzlich auf der Lorenzkraft, welche auf die Elektronen in einem, im Magnetfeld befindlichen, Halbleiter wirkt.
+Der Halleffekt basiert grundsätzlich auf der Lorentzkraft, welche auf die Elektronen in einem, im Magnetfeld befindlichen, Halbleiter wirkt.
 
 \subsubsection{Lorentzkraft}
 Ladungsträger, die sich mit einer Geschwindigkeit $\overrightarrow{v}$ durch ein Magnetfeld $\overrightarrow{B}$ bewegen, werden durch die Lorentzkraft abgelenkt. 
@@ -227,27 +227,27 @@ Durch die Ablenkung der Elektronen im Magnetfeld entsteht auf der linken Seite d
 \Rightarrow U_H = v \cdot B \cdot b
 \end{align}
 
-Die Drittgeschwindigkeit der Elektronen, welche ausschlaggebend für die Lorenzkraft ist, ergibt sich aus der Stromdichte in dem Halbleiter. \cite{anl}
+Die Driftgeschwindigkeit der Elektronen, welche ausschlaggebend für die Lorentzkraft ist, ergibt sich aus der Stromdichte in dem Halbleiter. \cite{anl}
 
 \begin{align}
-j = \frac{I}{b \cdot d} und j = n \cdot q \cdot v
+j = \frac{I}{b \cdot d} \quad \text{und} \quad j = n \cdot q \cdot v
 \end{align}
 
 \begin{align}
 \Rightarrow v = \frac{I}{n \cdot q \cdot b \cdot d}
 \end{align}
 
-Die Beiden Gleichungen ineinander eingesetzt ergibt als Hallspannung:
+Die beiden Gleichungen ineinander eingesetzt ergibt als Hallspannung:
 
 \begin{align}
 U_H = \frac{1}{n \cdot q} \cdot \frac{I \cdot B}{d}
 \end{align}
 
-Dabei ist der Faktor $A_H = \frac{1}{n \cdot q}$, auch Hall-Koeffizient welcher auch über die Art der Ladungsträger aussagt. Der Hall-Koeffizient ist positiv für Löcherleitung $(q = +e)$ und negativ für Elektronenleitung $(q = -e)$. \cite{anl}
+Dabei ist der Faktor $A_H = \frac{1}{n \cdot q}$, auch Hall-Koeffizient, welcher auch über die Art der Ladungsträger aussagt. Der Hall-Koeffizient ist positiv für Löcherleitung $(q = +e)$ und negativ für Elektronenleitung $(q = -e)$. \cite{anl}
 
 \subsubsection{Messung der Hallspannung}
 
-Bei der Messung der Messung der Hallspannung muss bedacht werden, dass keine Probe perfekt symmetrisch ist und somit auch eine Querspannung anliegt, auch ohne das Vorhandensein eines äußeren Magnetfeldes. Die Hallspannung UH ist die Differenz zwischen Querspannung mit und ohne Magnetfeld. \cite{anl}
+Bei der Messung der Hallspannung muss bedacht werden, dass keine Probe perfekt symmetrisch ist und somit auch eine Querspannung anliegt, auch ohne das Vorhandensein eines äußeren Magnetfeldes. Die Hallspannung UH ist die Differenz zwischen Querspannung mit und ohne Magnetfeld. \cite{anl}
 
 \begin{align}
 U_H = U_{BD,\text{mit}} - U_{BD,\text{ohne}}
@@ -262,7 +262,7 @@ U_H = U_{BD,\text{mit}} - U_{BD,\text{ohne}}
 \section{Versuch 3.1 Spezifischer Widerstand und Halleffekt}
 \subsection{Häusliche Vorarbeit}
 \subsubsection{3.3.2 - Van der Pauw Widerstandsnetzwerk}
-Die Probe besteht aus einer Art Gitter aus widerständen. Dabei ist jeder Punkt der Probe nach links, rechts, oben, unten mit einem benachbarten Punkt über einen Widerstand vernetzt. Dabei kann man sich einen Widerstand im Netzwerk ersatzweise als spezifischen Widerstand des Materials vorstellen vorstellen. Nach folgendem Aufbau verteilt sich der Strom auf die verschiedenen Widerstände. Dabei fließt durch die Widerstände auf der direkten Strecke zwischen VCC und GND der Hauptanteil des Stromes und je weiter man nach rechts kommt immer weniger. Dennoch wird auch an den äußeren Widerständen zwischen B und C ein messbarer Spannungsabfall erzeugt.
+Die Probe besteht aus einer Art Gitter aus Widerständen. Dabei ist jeder Punkt, der Probe nach links, rechts, oben, unten mit einem benachbarten Punkt über einen Widerstand vernetzt. Dabei kann man sich einen Widerstand im Netzwerk ersatzweise als spezifischen Widerstand des Materials vorstellen. Nach folgendem Aufbau verteilt sich der Strom auf die verschiedenen Widerstände. Dabei fließt durch die Widerstände auf der direkten Strecke zwischen VCC und GND der Hauptanteil des Stromes und je weiter man nach rechts kommt immer weniger. Dennoch wird auch an den äußeren Widerständen zwischen B und C ein messbarer Spannungsabfall erzeugt.
 
 \begin{figure}[H]
 \includegraphics[width=7cm]{Widerstandsnetzwerk_v3}
@@ -272,7 +272,7 @@ Die Probe besteht aus einer Art Gitter aus widerständen. Dabei ist jeder Punkt 
 \label{fig:widerstandsnetzwerk}
 \end{figure}
 
-Die folgende Grafik zeigt die Stromdichteverteilung in dem Netzwerk dabei kann man an den eigezeichneten Potentiallinien erkennen, Welche spannung an B und C gemessen wird wenn der Strom von A nach D fließt
+Die folgende Grafik zeigt die Stromdichteverteilung in dem Netzwerk, dabei kann man an den eigezeichneten Potentiallinien erkennen, welche Spannung an B und C gemessen wird, wenn der Strom von A nach D fließt.
 
 \begin{figure}[H]
 \includegraphics[width=12cm]{Top-view-of-van-der-Pauw-square-shaped}
@@ -299,8 +299,8 @@ Die folgende Abbildung zeigt alle Felder, Spannungen und Ströme für einen p-Ha
 In den Beispielaufgaben zum der Ladungsträgerdichte von Silizium werden in dem Arbeitsbuch "Physik für Studierende der Naturwissenschaften und Technik" (vgl. \cite{tipler}) $5 \cdot 10^{16} \frac{\text{Elektronen}}{cm^3}$ als typische Werte angenommen. Dies stimmt auch mit dem in der folgenden Grafik (Abbildung~\ref{fig:spezifischer-widerstand-silizium}) markierten Bereich überein.
 
 \subsubsection{3.3.5 - Abhängigkeit des spezifischer Widerstands von der Dotierung}
-Die folgende Grafik (Abbildung~\ref{fig:spezifischer-widerstand-silizium}) zeigt die Abhängigkeit des spezifischer Widerstands in Silizium von der Dotierung. 
-Dabei lässt sich ein größtenteils linearer Zusammenhang erkennen, wobei der widerstand eines p-Dotierten Halbleiters leicht größer ist.
+Die folgende Grafik (Abbildung~\ref{fig:spezifischer-widerstand-silizium}) zeigt die Abhängigkeit des spezifischen Widerstands in Silizium von der Dotierung. 
+Dabei lässt sich ein größtenteils linearer Zusammenhang erkennen, wobei der Widerstand eines p-Dotierten Halbleiters leicht größer ist.
 
 \begin{figure}[H]
 \includegraphics[width=12cm]{spezifischer_Widerstand_Silizium}
@@ -313,7 +313,7 @@ Dabei lässt sich ein größtenteils linearer Zusammenhang erkennen, wobei der w
 \footnotetext{\url{https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_5/backbone/r5_3_1.html}}
 
 \subsubsection{3.3.6 - Abhängigkeit der Beweglichkeit der Elektronen / Löcher von der Dotierung}
-Die folgende Abbildung zeigt die Beweglichkeit als Funktion der Elektronen–Konzentration in Ge, Si, GaAs bei Raumtemperatur. Dabei ist zu erkennen, dass die Beweglichkeit der Elektronen (in rosa) höher ist als die der Löcher (in hellblau)
+Die folgende Abbildung zeigt die Beweglichkeit als Funktion der Elektronen–Konzentration in Ge, Si, GaAs bei Raumtemperatur. Dabei ist zu erkennen, dass die Beweglichkeit der Elektronen (in rosa) höher ist, als die der Löcher (in hellblau)
 
 \begin{figure}[H]
 \includegraphics[width=12cm]{beweglichkeit-Silizium}
@@ -326,7 +326,7 @@ Die folgende Abbildung zeigt die Beweglichkeit als Funktion der Elektronen–Kon
 \footnotetext{\url{http://wwwex.physik.uni-ulm.de/lehre/physikalischeelektronik/phys_elektr/phys_elektrse10.html}}
 
 \subsubsection{3.3.7 - Richtung des Magnetfelds eines Stabmagneten}
-Die Folgende Grafik zeigt die Feldlinien eines Stabmagneten. Dabei gehen die Feldlinien senkrecht aus dem (roten) Nordpol hervor und gehen danach wider senkrecht in den Südpol (grün) herein.
+Die folgende Grafik zeigt die Feldlinien eines Stabmagneten. Dabei gehen die Feldlinien senkrecht aus dem (roten) Nordpol hervor und gehen danach wieder senkrecht in den Südpol (grün) herein.
 
 \begin{figure}[H]
 \includegraphics[width=8cm]{stabmagnet}
@@ -337,8 +337,6 @@ Die Folgende Grafik zeigt die Feldlinien eines Stabmagneten. Dabei gehen die Fel
 \end{figure}
 
 \footnotetext{\url{https://www.leifiphysik.de/elektrizitaetslehre/permanentmagnetismus/grundwissen/magnetfeld-und-feldlinien}}
-
-\subsubsection{3.3.8 - }
 
 \newpage
 
@@ -372,9 +370,9 @@ Dazu wird der Probenhalter mit der Si-Prode (Abbildung~\ref{fig:probehalter-mit-
 \label{fig:messbox-mit-anschluss}
 \end{figure}
 
-Nun wird der Spezifische Widerstand wie bereits in dem Theorieteil beschrieben gemessen.
-Dazu wird für Verschiedene Ströme (zuerst über A nach B dann über B nach C) die Spannung über D-C bzw. A-D gemessen
-Mit der dicke der Probe lässt sich nun der spezifische Widerstand gemessen.
+Nun wird der spezifische Widerstand wie bereits in dem Theorieteil beschrieben gemessen.
+Dazu wird für verschiedene Ströme (zuerst über A nach B dann über B nach C) die Spannung über D-C bzw. A-D gemessen.
+Mit der Dicke der Probe lässt sich nun der spezifische Widerstand gemessen.
 
 \subsubsection{Teil B: Bestimmung der Art der Ladungsträger}
 
@@ -396,19 +394,321 @@ Die Messungen werden an einer p-Dotierten und einer n-Dotierten Germaniumprobe w
 
 Der Messadapter (weißer Kunststoffdeckel) mit eingebautem Probenhalter wieder vorsichtig in die Messbox eingebaut.
 Anschließend wird die Hallspannung mit Dauermagnet (von forne und von hinten eingeschoben) gemessen.
-Eine Messung ohne Magnet soll wider den Drift kompensieren.\\
+Eine Messung ohne Magnet soll wieder den Drift kompensieren.\\
 
 Anschließend wird für beide Zustände des Magneten das Magnetfeld gemessen. \\
 
-Aus den Messergebissen lässt sich die Ladungsträgerdichte und Beweglichkeit berechnen
+Aus den Messergebnissen lässt sich die Ladungsträgerdichte und Beweglichkeit berechnen.
 
 \newpage
 
 \subsection{Auswertung Versuch}
+Alle Messwerte wurden mit Excel wie folgt berechnet:\\
+Mittelwerte:
+\begin{align}
+=\text{RUNDEN}(\text{MITTELWERT}(...);\text{Anzahl Nachkommastellen})
+\end{align}
+Messunsicherheit:
+\begin{align}
+=\frac{\text{STABW.S}(...)}{\text{WURZEL}(\text{ANZAHL}(...))} \cdot k
+\end{align}
+mit
+\begin{align*}
+k \quad &\text{Erweiterungsfaktor} = 2&\\
+\end{align*}
+Messunsicherheiten werden immer auf zwei signifkante Stellen aufgerundet.
+\subsubsection{Teil A: Bestimmung des spezifischen Widerstands}
+\paragraph{Messwerte $I_{AB}$ :\\}
+Die Messwerte für die verschiedenen Hallspannungen bei den verschiedenen Strömen von A nach B werden in folgender Tabelle dargestellt.
+
+\begin{figure}[H]
+\includegraphics[width=8cm]{tabelle_messwerte_Iab}
+\centering
+\caption{Messwerte für Strom $I_{AB}$}
+\centering
+\label{fig:tabelle-messwerte-Iab}
+\end{figure}
+
+Daraus ergeben sich die Diagramme:
+
+\begin{figure}[H]
+\includegraphics[width=10cm]{diagramm_messwerte_Iab-Udc}
+\centering
+\caption{Diagramm für $U_{DC}$ von $I_{AB}$}
+\centering
+\label{fig:diagramm_messwerte_Iab-Udc}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=10cm]{diagramm_messwerte_Iab-Uab}
+\centering
+\caption{Diagramm für $U_{AB}$ von $I_{AB}$}
+\centering
+\label{fig:diagramm_messwerte_Iab-Udc}
+\end{figure}
+
+Die Widerstände $R_{AB,DC}$ werden dabei wie folgt berechnet.
+
+\begin{align}
+R_{AB,DC} = \frac{U_{DC}}{I_{AB}}
+\end{align}
+
+Der Mittelwert mit Messunsicherheit beträgt dabei:
+
+\begin{align*}
+R_{AB,DC} = (11,57 \pm 0,12)\Omega
+\end{align*}
+
+\paragraph{Messwerte $I_{BC}$ :\\}
+Die Messwerte für die verschiedenen Hallspannungen bei den verschiedenen Strömen von B nach C werden in folgender Tabelle dargestellt.
+
+\begin{figure}[H]
+\includegraphics[width=7cm]{tabelle_messwerte_Ibc}
+\centering
+\caption{Messwerte für Strom $I_{BC}$}
+\centering
+\label{fig:tabelle-messwerte-Ibc}
+\end{figure}
+
+Daraus ergeben sich das Diagramm:
+
+\begin{figure}[H]
+\includegraphics[width=10cm]{diagramm_messwerte_Ibc-Uad}
+\centering
+\caption{Diagramm für $U_{AD}$ von $I_{BC}$}
+\centering
+\label{fig:diagramm_messwerte_Ibc-Uad}
+\end{figure}
+
+Die Widerstände $R_{BC,AD}$ werden dabei wie folgt berechnet.
+
+\begin{align}
+R_{BC,AD} = \frac{U_{AD}}{I_{BC}}
+\end{align}
+
+Der Mittelwert mit Messunsicherheit beträgt dabei:
+
+\begin{align*}
+R_{BC,AD} = (4,37 \pm 0,13)\Omega
+\end{align*}
+
+\paragraph{Flächenwiderstand:\\}
+\textbf{Mittlerer Widerstand:}\\
+\begin{align}
+\overline{R} = \frac{R_{AB,DC}+R_{BC,AD}}{2} = 7,97 \Omega
+\end{align}
+Fehlerrechnung:
+\begin{align*}
+\frac{\partial}{\partial R_{AB,DC}} \overline{R} &= \frac{1}{2} \\
+\frac{\partial}{\partial R_{BC,AD}} \overline{R} &= \frac{1}{2}
+\end{align*}
+\begin{align*}
+U_{\overline{R}} = \vert \frac{\partial}{\partial R_{AB,DC}} \overline{R} \vert \cdot U_{R_{AB,DC}} +  \vert \frac{\partial}{\partial R_{BC,AD}} \overline{R} \vert \cdot U_{R_{BC,AD}} = 0,125 \Omega \approx 0,13 \Omega
+\end{align*}
+\begin{align*}
+\overline{R} = (7,97 \pm 0,13)\Omega
+\end{align*}
+
+\textbf{Erste Hilfsgröße:}\\
+\begin{align}
+x = \frac{R_{AB,DC}}{R_{BC,AD}} = 2,6476
+\end{align}
+Fehlerrechnung:
+\begin{align*}
+\frac{\partial}{\partial R_{AB,DC}} x &= \dfrac{1}{R_\text{BC}} \\
+\frac{\partial}{\partial R_{BC,AD}} x &= -\dfrac{R_\text{AB}}{R_\text{BC}^2}
+\end{align*}
+\begin{align*}
+U_{x} = \vert \frac{\partial}{\partial R_{AB,DC}} x \vert \cdot U_{R_{AB,DC}} + \vert \frac{\partial}{\partial R_{BC,AD}} x \vert \cdot U_{R_{BC,AD}} = 0,10622 \approx 0,11
+\end{align*}
+\begin{align*}
+x = (2,65 \pm 0,11)
+\end{align*}
+
+\textbf{Zweite Hilfsgröße:}\\
+\begin{align}
+z = \frac{ln(2)}{2} \cdot (\frac{x-1}{x+1})^2 = 0,07082
+\end{align}
+Fehlerrechnung:
+\begin{align*}
+\frac{\partial}{\partial x} z = 2\ln\left(2\right)\cdot\dfrac{\left(x-1\right)}{\left(x+1\right)^3}
+\end{align*}
+\begin{align*}
+U_{z} = \vert \frac{\partial}{\partial x} z \vert \cdot U_{x} = 0,04704 \approx 0,048
+\end{align*}
+\begin{align*}
+z = (0,071 \pm 0,048)
+\end{align*}
+
+\textbf{Geometriefaktor:}\\
+\begin{align}
+f = 1 - z - \left( 1-\frac{ln(2)}{3}\right)  \cdot z^2 - \left( 2 - \frac{4}{3} \cdot ln(2) + \frac{8}{45} \cdot ln^2(2)\right) \cdot z^3 = 0,92471
+\end{align}
+Fehlerrechnung:
+\begin{align*}
+\frac{\partial}{\partial z} f = -1 -\left( 2-\frac{2\cdot ln(2)}{3}\right)  \cdot z -\left( 6 - 4 \cdot ln(2) + \frac{8}{15} \cdot ln^2(2)\right) \cdot z^2
+\end{align*}
+\begin{align*}
+U_{f} = \vert \frac{\partial}{\partial z} f \vert \cdot U_{z} = 0,0541
+\end{align*}
+\begin{align*}
+f = (0,925 \pm 0,055)
+\end{align*}
+
+\textbf{Flächenwiderstand:}\\
+\begin{align}
+R_{\square} = \frac{\pi}{ln(2)} \cdot \overline{R} \cdot f = 33,4137
+\end{align}
+Fehlerrechnung:
+\begin{align*}
+\frac{\partial}{\partial \overline{R}} R_{\square} &= \frac{\pi}{ln(2)} \cdot f \\
+\frac{\partial}{\partial f} R_{\square} &= \frac{\pi}{ln(2)} \cdot \overline{R}
+\end{align*}
+\begin{align*}
+U_{R_{\square}} = \vert \frac{\partial}{\partial \overline{R}} R_{\square}  \vert \cdot U_{\overline{R}} + \vert \frac{\partial}{\partial f} R_{\square} \vert \cdot U_{f} = 2,532 \frac{\Omega}{\square} \approx 2,6 \frac{\Omega}{\square}
+\end{align*}
+\begin{align*}
+R_{\square} = (33,4 \pm 2,6)\frac{\Omega}{\square}
+\end{align*}
+
+
+\paragraph{Spezifischer Widerstand:\\}
+
+\textbf{Probendicke:\\}
+Als Probendicke wurde $0,525mm$ mit einer Messungenauigkeit von $\pm 0,01mm$ gemessen.
+
+\textbf{Spezifischer Widerstand:}
+\begin{align}
+\rho = d \cdot R_{\square} = 1,7535
+\end{align}
+Fehlerrechnung:
+\begin{align*}
+\frac{\partial}{\partial d} \rho &= R_{\square} \\
+\frac{\partial}{\partial R_{\square}} \rho &= d
+\end{align*}
+\begin{align*}
+U_{\rho} = \vert \frac{\partial}{\partial d} \rho \vert \cdot U_{d} + \vert \frac{\partial}{\partial R_{\square}} \rho \vert \cdot U_{R_{\square}} = 0,1699 \Omega cm \approx 0,17
+\end{align*}
+\begin{align*}
+\rho = (1,75 \pm 0,17)\Omega cm
+\end{align*}
+
+
+\subsubsection{Teil B: Bestimmung der Art der Ladungsträger}
+Die folgenden Tabellen zeigen das verhalten der Hallspannungen bei verschiedenen Halbleiterproben:
+
+\textbf{Messwerte an Siliziumprobe:\\}
+
+\begin{figure}[H]
+\includegraphics[width=8cm]{tabelle_messwerte_silizium}
+\centering
+\caption{Messwerte für Siliziumprobe}
+\centering
+\label{fig:tabelle_messwerte_silizium}
+\end{figure}
+
+\textbf{Messwerte an n-Germanium:\\}
+
+\begin{figure}[H]
+\includegraphics[width=8cm]{tabelle_messwerte_n-germanium}
+\centering
+\caption{Messwerte für n-Germanium}
+\centering
+\label{fig:tabelle_messwerte_n-germanium}
+\end{figure}
+
+\textbf{Messwerte an p-Germanium:\\}
+
+\begin{figure}[H]
+\includegraphics[width=8cm]{tabelle_messwerte_p-germanium}
+\centering
+\caption{Messwerte an p-Germanium}
+\centering
+\label{fig:tabelle_messwerte_p-germanium}
+\end{figure}
+
+Das Verhalten der unbekannten Siliziumprobe ähnelt dem der Probe des n-Dotierten Germaniums. Folglich handelt es sich bei der Probe um einen n-dotierten Siliziumhalbleiter.
+
+\subsubsection{Teil C: Bestimmung der Ladungsträgerdichte und Beweglichkeit}
+
+\paragraph{Hallspannung:\\}
+Die Messwerte für die verschiedenen Hallspannungen bei einem Strom von $I = (1\pm0.002)mA$ werden in folgender Tabelle dargestellt.
+
+\begin{figure}[H]
+\includegraphics[width=8cm]{tabelle_messwerte_hallspannung}
+\centering
+\caption{Messwerte für die Hallspannung}
+\centering
+\label{fig:tabelle_messwerte_hallspannung}
+\end{figure}
+
+Als Mittelwert und Messungenauigkeit ergibt sich:
+
+\begin{align*}
+U_{\text{Hall}} = (0,5825\pm0,0050)mV
+\end{align*}
+
+\paragraph{Magnetfeld:\\}
+Die folgende Tabelle zeigt die verschiedenen Messungen für die Stärke des Magnetfeldes.
+
+\begin{figure}[H]
+\includegraphics[width=8cm]{tabelle_messwerte_megnetfeld}
+\centering
+\caption{Messwerte für das Magnetfeld}
+\centering
+\label{fig:tabelle_messwerte_megnetfeld}
+\end{figure}
+
+Als Mittelwert und Messungenauigkeit ergibt sich:
+
+\begin{align*}
+B = (561\pm27)mT
+\end{align*}
+
+\paragraph{Ladungsträgerdichte:\\}
+\begin{align}
+U_H = \frac{1}{n \cdot e} \cdot \frac{I \cdot B}{d} \quad \Rightarrow \quad n = \frac{I \cdot B}{U_H \cdot e \cdot d} = 1,14568 \cdot 10^{16} \frac{1}{cm^3}
+\end{align}
+Fehlerrechnung:
+\begin{align*}
+\frac{\partial}{\partial I} n &= \frac{B}{U_H \cdot e \cdot d} \\
+\frac{\partial}{\partial B} n &= \frac{I}{U_H \cdot e \cdot d} \\
+\frac{\partial}{\partial U_H} n &= -\frac{I \cdot B}{U_H^2 \cdot e \cdot d} \\
+\frac{\partial}{\partial d} n &= -\frac{I \cdot B}{U_H \cdot e \cdot d^2}
+\end{align*}
+\begin{align*}
+U_{n} = \vert \frac{\partial}{\partial I} n \vert \cdot U_{I} + 
+		\vert \frac{\partial}{\partial B} n \vert \cdot U_{B} +
+		\vert \frac{\partial}{\partial U_H} n \vert \cdot U_{U_H} +
+		\vert \frac{\partial}{\partial d} n \vert \cdot U_{d} = 0,10962 \cdot 10^{16} \frac{1}{cm^3}
+\end{align*}
+\begin{align*}
+n = (1,15 \pm 0,11)10^{16} \frac{1}{cm^3}
+\end{align*}
+
+\paragraph{Beweglichkeit:\\}
+\begin{align}
+\rho = \frac{1}{e \cdot n \cdot \mu} \quad \Rightarrow \quad \mu = \frac{1}{e \cdot n \cdot \rho} = 310,137 \frac{cm^2}{Vs}
+\end{align}
+Fehlerrechnung:
+\begin{align*}
+\frac{\partial}{\partial \rho} \mu &= \frac{1}{e \cdot n \cdot \rho^2} \\
+\frac{\partial}{\partial n} \mu &= \frac{1}{e \cdot n^2 \cdot \rho} 
+\end{align*}
+\begin{align*}
+U_{n} = \vert \frac{\partial}{\partial \rho} \mu \vert \cdot U_{\rho} + 
+		\vert \frac{\partial}{\partial n} \mu \vert \cdot U_{n} = 59.7928 \frac{cm^2}{Vs} \approx 60 \frac{cm^2}{Vs}
+\end{align*}
+\begin{align*}
+\mu = (310 \pm 60)\frac{cm^2}{Vs}
+\end{align*}
 
 \newpage
 
 \subsection{Wertung/Fazit}
+Die errechneten Werte weisen kleinere Abweichung im Vergleich zu den unterschiedlichen Literaturwerten auf. Auch die Messunsicherheiten sind nicht gerade genau. Dennoch sind die gemessenen Werte in der Nähe der Literaturwerte. Dabei muss beachtetet werden, dass die Literatur nur Bereiche angibt, in welchen sich typische Werte aufhalten, und (im Falle der genutzten Literatur) keine genauen Werte gegeben sind. Dies liegt daran, da die Eigenschaften von jedem Halbleiter unterschiedlich sind, je nachdem wie dieser hergestellt wurde.
+Nach der Abbildung (Abbildung~\ref{fig:spezifischer-widerstand-silizium}) ist das Ergebnis inmitten des als "technisch nutzbar" markierten Bereiches. Auch stimmen die Ladungsträgerdichte $n$ und der spezifische Widerstand $\rho$ mit einem Punkt in der Grafik überein. So sind Werte von $n \approx 1 \cdot 10^{16} \frac{1}{cm^3}$ und $\rho \approx 1 \cdot 10^0 \Omega cm$ durchaus realistisch.
+Die Messungen sind keineswegs perfekt, aber bewegen sich in den realistischen Größenordnungen.
 
 \newpage
 

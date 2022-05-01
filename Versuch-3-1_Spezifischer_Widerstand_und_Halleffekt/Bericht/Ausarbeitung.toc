@@ -22,17 +22,27 @@
 \contentsline {subsubsection}{\numberline {3.1.4}3.3.5 - Abhängigkeit des spezifischer Widerstands von der Dotierung}{9}{subsubsection.3.1.4}%
 \contentsline {subsubsection}{\numberline {3.1.5}3.3.6 - Abhängigkeit der Beweglichkeit der Elektronen / Löcher von der Dotierung}{10}{subsubsection.3.1.5}%
 \contentsline {subsubsection}{\numberline {3.1.6}3.3.7 - Richtung des Magnetfelds eines Stabmagneten}{11}{subsubsection.3.1.6}%
-\contentsline {subsubsection}{\numberline {3.1.7}3.3.8 -}{11}{subsubsection.3.1.7}%
 \contentsline {subsection}{\numberline {3.2}Aufbau und Durchführung}{12}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Teil A: Bestimmung des spezifischen Widerstands}{12}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Teil B: Bestimmung der Art der Ladungsträger}{13}{subsubsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}Teil C: Bestimmung der Ladungsträgerdichte und Beweglichkeit}{13}{subsubsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.3}Auswertung Versuch}{14}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Wertung/Fazit}{15}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Versuch 3.2 pn-Übergang... oder so... hab kein plan}{16}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Häusliche Vorarbeit}{16}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Aufbau und Durchführung}{17}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Auswertung Versuch}{18}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Wertung/Fazit}{19}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Brauchen wir einen Anhang für Tabellen?}{20}{section.5}%
+\contentsline {subsubsection}{\numberline {3.3.1}Teil A: Bestimmung des spezifischen Widerstands}{14}{subsubsection.3.3.1}%
+\contentsline {paragraph}{\nonumberline Messwerte $I_{AB}$ :\\}{14}{paragraph*.3}%
+\contentsline {paragraph}{\nonumberline Messwerte $I_{BC}$ :\\}{15}{paragraph*.5}%
+\contentsline {paragraph}{\nonumberline Flächenwiderstand:\\}{16}{paragraph*.7}%
+\contentsline {paragraph}{\nonumberline Spezifischer Widerstand:\\}{18}{paragraph*.9}%
+\contentsline {subsubsection}{\numberline {3.3.2}Teil B: Bestimmung der Art der Ladungsträger}{18}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Teil C: Bestimmung der Ladungsträgerdichte und Beweglichkeit}{19}{subsubsection.3.3.3}%
+\contentsline {paragraph}{\nonumberline Hallspannung:\\}{19}{paragraph*.11}%
+\contentsline {paragraph}{\nonumberline Magnetfeld:\\}{19}{paragraph*.13}%
+\contentsline {paragraph}{\nonumberline Ladungsträgerdichte:\\}{20}{paragraph*.15}%
+\contentsline {paragraph}{\nonumberline Beweglichkeit:\\}{20}{paragraph*.17}%
+\contentsline {subsection}{\numberline {3.4}Wertung/Fazit}{21}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Versuch 3.2 pn-Übergang... oder so... hab kein plan}{22}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Häusliche Vorarbeit}{22}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Aufbau und Durchführung}{23}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Auswertung Versuch}{24}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Wertung/Fazit}{25}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Brauchen wir einen Anhang für Tabellen?}{26}{section.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
