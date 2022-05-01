@@ -3,12 +3,14 @@
 \contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
 \contentsline {section}{\numberline {3}Häusliche Vorarbeit}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}An welchen Stellen des I-U Diagramms wird eine höhere Dichte an Messwerten benötigt?}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}I-U Diagramme für eine unbeleuchtete und beleuchtete Solarzelle}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}I-U Diagramme für eine unbeleuchtete und beleuchtete Solarzelle}{5}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Einfluss der Widerstände auf den Füllfaktor}{5}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Aktueller Stand der Technik bei Solarzellen}{5}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Aufbau und Durchführung}{6}{section.4}%
-\contentsline {section}{\numberline {5}Auswertung Versuch}{7}{section.5}%
-\contentsline {section}{\numberline {6}Wertung/Fazit}{8}{section.6}%
-\contentsline {section}{\numberline {7}Anhang}{9}{section.7}%
-\contentsline {section}{\numberline {8}Literatur}{10}{section.8}%
+\contentsline {subsection}{\numberline {4.1}Aufbau}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Durchführung}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Auswertung Versuch}{8}{section.5}%
+\contentsline {section}{\numberline {6}Wertung/Fazit}{10}{section.6}%
+\contentsline {section}{\numberline {7}Anhang}{11}{section.7}%
+\contentsline {section}{\numberline {8}Literatur}{14}{section.8}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
