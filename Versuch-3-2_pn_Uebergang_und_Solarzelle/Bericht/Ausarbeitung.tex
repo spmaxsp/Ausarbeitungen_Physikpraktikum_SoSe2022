@@ -86,7 +86,7 @@ Da die Kennlinie der Diode exponentiell verläuft und der größte Teil der Span
 abfällt, muss die Anzahl der Messwerte deutlich erhöht werden.
 
 \begin{figure}[H]
-\includegraphics[width=11cm]{ESB_Solarzelle}
+\includegraphics[width=16cm]{ESB_Solarzelle}
 \centering
 \caption{Ersatzschaltbild der Solarzelle}
 \centering
@@ -96,7 +96,7 @@ abfällt, muss die Anzahl der Messwerte deutlich erhöht werden.
 \subsection{I-U Diagramme für eine unbeleuchtete und beleuchtete Solarzelle}
 
 \begin{figure}[H]
-\includegraphics[width=14cm]{Kennlinie}
+\includegraphics[width=16cm]{Kennlinie}
 \centering
 \caption{Kennlinien für beleuchtete- und unbeleuchtete Solarzelle}
 \centering
@@ -114,8 +114,9 @@ Solarzellen bestehen zum größten Teil aus p-dotiertem und n-dotiertem Silizium
 Es wird vor Allem wegen der hohen Verfügbarkeit auf der Erde verwendet.
 Man unterscheidet zwischen polykristallinen- und monokristallinen Zellen.
 Polykristalline Zellen werden aus Silizium gegossen und haben einen Wirkungsgrad
-von 12-16\%. Monokristalline Zellen werden aus gezüchtetem Silizium gebaut, wodurch die Herstellung teurer ist. Dafür wird ein höhere Effizienz
-von 	14-20\% erreicht. Der typische Füllfaktor liegt zwischen 0,5 und 0,7.
+von 12-16\%. Monokristalline Zellen werden aus gezüchtetem Silizium gebaut, wodurch die Herstellung
+teurer ist. Dafür wird ein höhere Effizienzvon 14-20\% erreicht. Der typische Füllfaktor liegt
+zwischen 0,5 und 0,7.
 %TODO Quellenverweis.
 
 \newpage
@@ -124,7 +125,7 @@ von 	14-20\% erreicht. Der typische Füllfaktor liegt zwischen 0,5 und 0,7.
 Der Versuchsaufbau ist in Abbildung \ref{fig:Aufbau} dargestellt.
 
 \begin{figure}[H]
-%\includegraphics[width=14cm]{Kennlinie}
+\includegraphics[width=14cm]{Aufbau}
 \centering
 \caption{Versuchsaufbau}
 \centering
@@ -133,14 +134,13 @@ Der Versuchsaufbau ist in Abbildung \ref{fig:Aufbau} dargestellt.
 
 \subsection{Durchführung}
 Die Schaltung wird wie in Abbildung \ref{fig:Schaltplan} zu sehen
-aufgebaut. Zuerst wird der Versuch mit abgedeckter Solarzelle durchgeführt. Man misst für verschiedene Spannungen $U_d$ von $-2,0V$
-bis $0,6V$ die Spannung $U_R$. Dadurch lässt sich der Diodenstrom $I_d$ berechnen.
-Mit den Strom- und Spannungswerten lässt sich nun die U-I Kennlinie der
-Diode zeichnen. Danach wird der Versuch nochmal mit beleuchteter Solarzelle
-wiederholt.
+aufgebaut. Zuerst wird der Versuch mit abgedeckter Solarzelle durchgeführt. Man misst für verschiedene
+Spannungen $U_d$ von $-2,0V$ bis $0,6V$ die Spannung $U_R$. Dadurch lässt sich der Diodenstrom $I_d$
+berechnen. Mit den Strom- und Spannungswerten lässt sich nun die U-I Kennlinie der Diode zeichnen. Danach 
+wird der Versuch nochmal mit beleuchteter Solarzelle wiederholt.
 
 \begin{figure}[H]
-%\includegraphics[width=14cm]{Kennlinie}
+\includegraphics[width=16cm]{Schaltplan}
 \centering
 \caption{Schaltplan}
 \centering
@@ -174,15 +174,145 @@ U_a = \bigg | \frac{\partial A}{\partial l} \bigg | \cdot U_l = 52,5\;mm^2 \\
 A = (2756\pm 53)\;mm^2
 \end{align*}
 
+Die Kapazität eines Plattenkondensators mit gegebenem $\epsilon_r = 11,9$ lässt sich berechnen mit:
+\begin{align*}
+C &= \epsilon_0 \cdot \epsilon_r \cdot \frac{A}{d} \\
+d &= \epsilon_0 \cdot \epsilon_r \cdot \frac{A}{C} \\
+  &= 8,854 \cdot 10^{-12}\; \frac{As}{Vm} \cdot 11,9 \cdot \frac{2756,26 \; mm^2}{924,64 \; nF} \\
+  &= 314,082 \; nm 
+\end{align*}
+
+\begin{align}
+&\frac{\partial d}{\partial A} = \epsilon_0 \cdot \epsilon_r \cdot \frac{1}{C}
+&\frac{\partial d}{\partial C} = - \epsilon_0 \cdot \epsilon_r \cdot \frac{A}{C^2}
+\end{align}
+
+\begin{align*}
+U_d = \bigg | \frac{\partial d}{\partial A} \bigg | \cdot U_A + \bigg | \frac{\partial d}{\partial C} 
+\bigg | \cdot U_C = 6,3222 \; nm
+\end{align*}
+\begin{align*}
+d = (314,1 \pm 6,4)\; nm
+\end{align*}
+
+Folgende Größen lassen sich in der Abbildung \ref{fig:beleuchtet} oder der Tabelle \ref{tab:beleuchtet} im 
+Anhang (Abschnitt \ref{sec:Anhang}) ablesen:
+\begin{align*}
+&\text{Die Leerlaufspannung}\; U_{OC} \; \text{beträgt:} &&0,52\;V \\
+&\text{Der Kurzschulssstrom}\; I_{SC} \; \text{beträgt:} &-&0,064333\;A \\
+&\text{Die maximale Leistung}\; P_{max} \; \text{beträgt:} &-&0,024296\;W\\
+\end{align*}
+
+Der Füllfaktor lässt sich durch die Gleichung \ref{} berechnen:
+\begin{align*}
+FF = \frac{-0,024296\;W}{0,52\;V \cdot (-0,064333\;A)} = 0,72625
+\end{align*}
+\\
+Messunsicherheit Multimeter geschätzt:
+\begin{align*}
+U_M = \pm 0,01\;V
+\end{align*}
+\begin{align*}
+U_{OC} = (0,52 \pm 0,01)\;V \\
+U_R = (-9,65 \pm 0,01)\;V
+\end{align*}
+
+Messunsicherheit vom Widerstand $R_{SC}$:
+\begin{align*}
+R = (150 \pm 10)\; \Omega \\
+\end{align*}
+
+Die Messunsicherheit für $I_{SC}$ berechnet sich wie folgt:
+\begin{align*}
+I_{SC} = \frac{U_R}{R}
+\end{align*}
+
+\begin{align}
+&\frac{\partial I_{SC}}{\partial U_R} = \frac{1}{R}
+&\frac{\partial I_{SC}}{\partial R} = - \frac{U_R}{R^2}
+\end{align}
+
+\begin{align*}
+U_{I_{SC}} = \bigg | \frac{\partial I_{SC}}{\partial U_R} \bigg | \cdot U_{U_R} +
+\bigg | \frac{\partial I_{SC}}{\partial R} \bigg | \cdot U_R = 0,0043\overline{5} \; A
+\end{align*}
+\begin{align*}
+I_{SC} = (-0,0643 \pm 0,0044)\; A
+\end{align*}
+
+Die Messunsicherheit für $P_{max}$ berechnet sich wie folgt:
+\begin{align*}
+P_{max} = U_{OC} \cdot I_{SC}
+\end{align*}
+
+\begin{align}
+&\frac{\partial P_{max}}{\partial U_{OC}} = I_{SC}
+&\frac{\partial P_{max}}{\partial I_{SC}} = U_{OC}
+\end{align}
+
+\begin{align*}
+U_{P_{max}} = \bigg | \frac{\partial P_{max}}{\partial U_{OC}} \bigg | \cdot U_{U_{OC}} +
+\bigg | \frac{\partial P_{max}}{\partial I_{SC}} \bigg | \cdot U_{I_{SC}} = 0,0029313 \; W
+\end{align*}
+\begin{align*}
+P_{max} = (-0,0243 \pm 0,0030)\; W
+\end{align*}
+
+Die Messunsicherheit für den Füllfaktor $FF$ berechnet sich wie folgt:
+
+\begin{align}
+\frac{\partial FF}{\partial P_{max}} = \frac{1}{U_{OC} \cdot I_{SC}} \qquad
+\frac{\partial FF}{\partial U_{SC}} = -\frac{P_{max}}{U_{SC}^2 \cdot I_{SC}} \qquad
+\frac{\partial FF}{\partial I_{SC}} = -\frac{P_{max}}{U_{SC} \cdot I_{SC}^2}
+\end{align}
+
+\begin{align*}
+U_{FF} = \bigg | \frac{\partial FF}{\partial P_{max}} \bigg | \cdot U_{P_{max}} +
+\bigg | \frac{\partial FF}{\partial U_{SC}} \bigg | \cdot U_{U_{SC}} +
+\bigg | \frac{\partial FF}{\partial I_{SC}} \bigg | \cdot U_{I_{SC}} = 0,1533
+\end{align*}
+\begin{align*}
+FF = (0,73 \pm 0,16)
+\end{align*}
+
 \newpage
 \section{Wertung/Fazit}
-%TODO
-TODO
+Der aus den Messwerten berechnete Füllfaktor liegt mit Ungenauigkeit im realistischen
+Bereich. Durch die von uns sehr klein gewählte Schrittweite der Messwerte ist es uns
+gelungen eine nah an der Theorie liegende U-I Kennlinie zu zeichnen.
+Das Ergebnis des Versuchs ist alles in allem zufriedenstellend.
+
 
 \newpage
 \section{Anhang}
-%TODO
-TODO
+\label{sec:Anhang}
+\begin{table}[H]
+\includegraphics[width=4cm]{Tabelle_unbeleuchtet}
+\centering
+\caption{Messwerte Solarzelle unbeleuchtet}
+\end{table}
+
+\begin{figure}[H]
+\includegraphics[width=14cm]{Diagramm_unbeleuchtet}
+\centering
+\caption{Diagramm Solarzelle unbeleuchtet}
+\centering
+\end{figure}
+
+\begin{table}[H]
+\includegraphics[width=6cm]{Tabelle_beleuchtet}
+\centering
+\caption{Messwerte Solarzelle unbeleuchtet}
+\label{tab:beleuchtet}
+\end{table}
+
+\begin{figure}[H]
+\includegraphics[width=14cm]{Diagramm_beleuchtet}
+\centering
+\caption{Diagramm Solarzelle unbeleuchtet}
+\centering
+\label{fig:beleuchtet}
+\end{figure}
 
 \newpage
 \section{Literatur}
