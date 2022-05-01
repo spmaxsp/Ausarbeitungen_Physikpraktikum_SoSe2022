@@ -9,14 +9,24 @@ Martin~Stohrer Ekbert~Hering, Rolf~Martin.
 \newblock {\em {Physik für Ingenieure 13. Auflage}}.
 \newblock {Springer-Verlag}, 2019.
 
+\bibitem{horn}
+Ewald~Werner Erhard~Hornbogen, Gunther~Eggeler.
+\newblock {\em {Werkstoffe 12. Auflage}}.
+\newblock {Springer-Verlag}, 2019.
+
 \bibitem{tipler}
 Gene~Mosca Paul A.~Tipler.
-\newblock {\em {Physik für Ingenieure 7. Auflage}}.
+\newblock {\em {Physik für Studierende der Naturwissenschaften und Technik 7.
+  Auflage}}.
 \newblock {Springer-Verlag}, 2015.
 
 \bibitem{werk}
 Prof. Dr.~Simon Pauly.
 \newblock {Mitschrift Vorlesung: Werkstofftechnik}.
 \newblock 2021.
+
+\bibitem{phyglob}
+Kaur Simran.
+\newblock Van der pauw method - engineering physics, Mar 2021.
 
 \end{thebibliography}
