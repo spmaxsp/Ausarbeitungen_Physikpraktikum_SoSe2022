@@ -110,18 +110,69 @@ der Serienwiderstand gegen 0 $\lim_{r_{\text{s}} \to 0}$ und der Parallelwiderst
 $\lim_{r_{\text{sh}} \to \infty}$ (siehe Abbildung \ref{fig:ESB_Solar}).
 
 \subsection{Aktueller Stand der Technik bei Solarzellen}
-%TODO
-TODO
+Solarzellen bestehen zum größten Teil aus p-dotiertem und n-dotiertem Silizium.
+Es wird vor Allem wegen der hohen Verfügbarkeit auf der Erde verwendet.
+Man unterscheidet zwischen polykristallinen- und monokristallinen Zellen.
+Polykristalline Zellen werden aus Silizium gegossen und haben einen Wirkungsgrad
+von 12-16\%. Monokristalline Zellen werden aus gezüchtetem Silizium gebaut, wodurch die Herstellung teurer ist. Dafür wird ein höhere Effizienz
+von 	14-20\% erreicht. Der typische Füllfaktor liegt zwischen 0,5 und 0,7.
+%TODO Quellenverweis.
 
 \newpage
 \section{Aufbau und Durchführung}
-%TODO
-TODO
+\subsection{Aufbau}
+Der Versuchsaufbau ist in Abbildung \ref{fig:Aufbau} dargestellt.
+
+\begin{figure}[H]
+%\includegraphics[width=14cm]{Kennlinie}
+\centering
+\caption{Versuchsaufbau}
+\centering
+\label{fig:Aufbau}
+\end{figure}
+
+\subsection{Durchführung}
+Die Schaltung wird wie in Abbildung \ref{fig:Schaltplan} zu sehen
+aufgebaut. Zuerst wird der Versuch mit abgedeckter Solarzelle durchgeführt. Man misst für verschiedene Spannungen $U_d$ von $-2,0V$
+bis $0,6V$ die Spannung $U_R$. Dadurch lässt sich der Diodenstrom $I_d$ berechnen.
+Mit den Strom- und Spannungswerten lässt sich nun die U-I Kennlinie der
+Diode zeichnen. Danach wird der Versuch nochmal mit beleuchteter Solarzelle
+wiederholt.
+
+\begin{figure}[H]
+%\includegraphics[width=14cm]{Kennlinie}
+\centering
+\caption{Schaltplan}
+\centering
+\label{fig:Schaltplan}
+\end{figure}
 
 \newpage
 \section{Auswertung Versuch}
-%TODO
-TODO
+Die Kapazität $C_s$ beträgt: $924,63\;nF$. Die Standardabweichung wird
+auf $1\;nF$ geschätzt.
+
+\begin{align*}
+C_s = (925,0\pm 1,0)\;nF	
+\end{align*}
+
+Die Solarzelle hat eine quadratische Grundfläche $A$ mit einer Seitenlänge (l)
+von $(52,5\pm 0,5)\;mm$.
+
+\begin{align*}
+A &= l^2 \\
+ &= (52,5\;mm)^2 \\
+ &= 2756,25\;mm^2
+\end{align*}
+
+\begin{align}
+\frac{\partial A}{\partial l} = 2l
+\end{align}
+
+\begin{align*}
+U_a = \bigg | \frac{\partial A}{\partial l} \bigg | \cdot U_l = 52,5\;mm^2 \\
+A = (2756\pm 53)\;mm^2
+\end{align*}
 
 \newpage
 \section{Wertung/Fazit}
