@@ -1,0 +1,10 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}%
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
+\contentsline {section}{\numberline {3}Häusliche Vorarbeit}{4}{section.3}%
+\contentsline {section}{\numberline {4}Aufbau und Durchführung}{5}{section.4}%
+\contentsline {section}{\numberline {5}Auswertung Versuch}{6}{section.5}%
+\contentsline {section}{\numberline {6}Wertung/Fazit}{7}{section.6}%
+\contentsline {section}{\numberline {7}Anhang}{8}{section.7}%
+\contentsline {section}{\numberline {8}Literatur}{9}{section.8}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
