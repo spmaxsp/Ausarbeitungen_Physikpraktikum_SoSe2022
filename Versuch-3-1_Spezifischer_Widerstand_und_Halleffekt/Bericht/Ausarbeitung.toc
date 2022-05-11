@@ -1,52 +1,52 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}%
-\contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Leitfähigkeit von Materialien}{3}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Driftgeschwindigkeit}{3}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Der Elektrische Widerstand}{3}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Leitungsbänder}{3}{subsubsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.2}Halbleiter}{4}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Dotierung}{4}{subsubsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.3}Messung Spezifischer Widerstand nach van der Pauw}{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Halleffekt}{6}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Lorentzkraft}{6}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Berechnung der Hall-Spannung}{6}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Messung der Hallspannung}{7}{subsubsection.2.4.3}%
-\contentsline {section}{\numberline {3}Versuch 3.1 Spezifischer Widerstand und Halleffekt}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Häusliche Vorarbeit}{8}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}3.3.2 - Van der Pauw Widerstandsnetzwerk}{8}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}3.3.3 - Zeichnung zum Halleffekt im p-Halbleiter}{9}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}3.3.4 - Ladungsträgerdichte von Silizium}{9}{subsubsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.4}3.3.5 - Abhängigkeit des spezifischer Widerstands von der Dotierung}{9}{subsubsection.3.1.4}%
-\contentsline {subsubsection}{\numberline {3.1.5}3.3.6 - Abhängigkeit der Beweglichkeit der Elektronen / Löcher von der Dotierung}{10}{subsubsection.3.1.5}%
-\contentsline {subsubsection}{\numberline {3.1.6}3.3.7 - Richtung des Magnetfelds eines Stabmagneten}{11}{subsubsection.3.1.6}%
-\contentsline {subsection}{\numberline {3.2}Aufbau und Durchführung}{12}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Teil A: Bestimmung des spezifischen Widerstands}{12}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Teil B: Bestimmung der Art der Ladungsträger}{13}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Teil C: Bestimmung der Ladungsträgerdichte und Beweglichkeit}{13}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}Auswertung Versuch}{14}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Teil A: Bestimmung des spezifischen Widerstands}{14}{subsubsection.3.3.1}%
-\contentsline {paragraph}{\nonumberline Messwerte $I_{AB}$ :\\}{14}{paragraph*.3}%
-\contentsline {paragraph}{\nonumberline Messwerte $I_{BC}$ :\\}{15}{paragraph*.5}%
-\contentsline {paragraph}{\nonumberline Flächenwiderstand:\\}{16}{paragraph*.7}%
-\contentsline {paragraph}{\nonumberline Spezifischer Widerstand:\\}{18}{paragraph*.9}%
-\contentsline {subsubsection}{\numberline {3.3.2}Teil B: Bestimmung der Art der Ladungsträger}{18}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Teil C: Bestimmung der Ladungsträgerdichte und Beweglichkeit}{19}{subsubsection.3.3.3}%
-\contentsline {paragraph}{\nonumberline Hallspannung:\\}{19}{paragraph*.11}%
-\contentsline {paragraph}{\nonumberline Magnetfeld:\\}{19}{paragraph*.13}%
-\contentsline {paragraph}{\nonumberline Ladungsträgerdichte:\\}{20}{paragraph*.15}%
-\contentsline {paragraph}{\nonumberline Beweglichkeit:\\}{20}{paragraph*.17}%
-\contentsline {subsection}{\numberline {3.4}Wertung/Fazit}{21}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Versuch 3.2 pn-Übergang und Solarzelle}{22}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Häusliche Vorarbeit}{22}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}An welchen Stellen des I-U Diagramms wird eine höhere Dichte an Messwerten benötigt?}{22}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}I-U Diagramme für eine unbeleuchtete und beleuchtete Solarzelle}{23}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Einfluss der Widerstände auf den Füllfaktor}{23}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}Aktueller Stand der Technik bei Solarzellen}{23}{subsubsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.2}Aufbau und Durchführung}{24}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Aufbau}{24}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Durchführung}{25}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}Auswertung Versuch}{26}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Wertung/Fazit}{28}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Anhang}{29}{section.5}%
+\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}%
+\contentsline {section}{\numberline {2}Theorie}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Leitfähigkeit von Materialien}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Driftgeschwindigkeit}{4}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Der Elektrische Widerstand}{4}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Leitungsbänder}{4}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Halbleiter}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Dotierung}{5}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.3}Messung Spezifischer Widerstand nach van der Pauw}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Halleffekt}{7}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Lorentzkraft}{7}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Berechnung der Hall-Spannung}{7}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Messung der Hallspannung}{8}{subsubsection.2.4.3}%
+\contentsline {section}{\numberline {3}Versuch 3.1 Spezifischer Widerstand und Halleffekt}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Häusliche Vorarbeit}{9}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}3.3.2 - Van der Pauw Widerstandsnetzwerk}{9}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}3.3.3 - Zeichnung zum Halleffekt im p-Halbleiter}{10}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}3.3.4 - Ladungsträgerdichte von Silizium}{10}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}3.3.5 - Abhängigkeit des spezifischer Widerstands von der Dotierung}{10}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}3.3.6 - Abhängigkeit der Beweglichkeit der Elektronen / Löcher von der Dotierung}{11}{subsubsection.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.6}3.3.7 - Richtung des Magnetfelds eines Stabmagneten}{12}{subsubsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.2}Aufbau und Durchführung}{13}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Teil A: Bestimmung des spezifischen Widerstands}{13}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Teil B: Bestimmung der Art der Ladungsträger}{14}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Teil C: Bestimmung der Ladungsträgerdichte und Beweglichkeit}{14}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Auswertung Versuch}{15}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Teil A: Bestimmung des spezifischen Widerstands}{15}{subsubsection.3.3.1}%
+\contentsline {paragraph}{\nonumberline Messwerte $I_{AB}$ :\\}{15}{paragraph*.3}%
+\contentsline {paragraph}{\nonumberline Messwerte $I_{BC}$ :\\}{16}{paragraph*.5}%
+\contentsline {paragraph}{\nonumberline Flächenwiderstand:\\}{17}{paragraph*.7}%
+\contentsline {paragraph}{\nonumberline Spezifischer Widerstand:\\}{19}{paragraph*.9}%
+\contentsline {subsubsection}{\numberline {3.3.2}Teil B: Bestimmung der Art der Ladungsträger}{19}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Teil C: Bestimmung der Ladungsträgerdichte und Beweglichkeit}{20}{subsubsection.3.3.3}%
+\contentsline {paragraph}{\nonumberline Hallspannung:\\}{20}{paragraph*.11}%
+\contentsline {paragraph}{\nonumberline Magnetfeld:\\}{20}{paragraph*.13}%
+\contentsline {paragraph}{\nonumberline Ladungsträgerdichte:\\}{21}{paragraph*.15}%
+\contentsline {paragraph}{\nonumberline Beweglichkeit:\\}{21}{paragraph*.17}%
+\contentsline {subsection}{\numberline {3.4}Wertung/Fazit}{22}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Versuch 3.2 pn-Übergang und Solarzelle}{23}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Häusliche Vorarbeit}{23}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}An welchen Stellen des I-U Diagramms wird eine höhere Dichte an Messwerten benötigt?}{23}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}I-U Diagramme für eine unbeleuchtete und beleuchtete Solarzelle}{24}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Einfluss der Widerstände auf den Füllfaktor}{24}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Aktueller Stand der Technik bei Solarzellen}{24}{subsubsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.2}Aufbau und Durchführung}{25}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Aufbau}{25}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Durchführung}{26}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Auswertung Versuch}{27}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Wertung/Fazit}{29}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Anhang}{30}{section.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
