@@ -6,6 +6,8 @@
 
 \bibitem{solar}
 Photovoltaik technik - woraus besteht eine photovoltaikanlage?, Dec 2021.
+\newblock URL:
+  \url{https://www.sanier.de/solar/photovoltaik/photovoltaik-technik}.
 
 \bibitem{hering}
 Martin~Stohrer Ekbert~Hering, Rolf~Martin.
@@ -31,5 +33,7 @@ Prof. Dr.~Simon Pauly.
 \bibitem{phyglob}
 Kaur Simran.
 \newblock Van der pauw method - engineering physics, Mar 2021.
+\newblock URL:
+  \url{https://www.physicsglobe.com/2021/03/van-der-pauw-method-engineering-physics.html}.
 
 \end{thebibliography}
