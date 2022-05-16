@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: build/Ausarbeitung.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: plainurl.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: literatur.bib
+Warning--to sort, need author or key in anl
+Warning--empty author in anl
+Warning--empty note in anl
+You've used 3 entries,
+            2882 wiz_defined-function locations,
+            635 strings with 5360 characters,
+and the built_in function-call counts, 892 in all, are:
+= -- 81
+> -- 18
+< -- 0
++ -- 7
+- -- 4
+* -- 32
+:= -- 145
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 30
+empty$ -- 100
+format.name$ -- 4
+if$ -- 240
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 4
+newline$ -- 17
+num.names$ -- 4
+pop$ -- 33
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 0
+skip$ -- 70
+stack$ -- 0
+substring$ -- 15
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 3
+while$ -- 4
+width$ -- 4
+write$ -- 29
+(There were 3 warnings)
