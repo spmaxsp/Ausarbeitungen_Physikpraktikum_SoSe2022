@@ -1,0 +1,115 @@
+% --------------------- VARIABLEN -------------------------
+
+\newcommand{\COURSE}{Physik und Materialwissenschaften\\ Praktikum Physik \\}
+\newcommand{\SEMESTER}{Elektro- und Informationstechnik II}
+\newcommand{\STUDENT}{Maximilian Spahn\\ und\\Benjamin Langer}
+
+\newcommand{\HEADDING}{Praktikum Physik}
+\newcommand{\SUBHEADDING}{Versuch 5.3: Prismenspektroskopie}
+
+% ------------------- DEFINITIONEN -----------------------
+
+\documentclass[a4paper]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{float}
+\usetikzlibrary{arrows,decorations.markings}
+\usepackage{tabularx}
+\usepackage{fancybox}
+\usepackage{pgfplots}
+\usepackage[colorlinks=false,linkcolor=black,urlcolor=blue,bookmarks,bookmarksopen=true]{hyperref}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{subcaption}
+
+\usepackage[page]{totalcount}
+
+%Größe der Ränder setzen
+\geometry{a4paper,left=2cm, right=2cm, top=3cm, bottom=2cm, headheight=8cm}
+
+%Kopf- und Fußzeile
+\pagestyle {fancy}
+\fancyhf{}
+\fancyhead[L]{\STUDENT}
+\fancyhead[C]{\COURSE}
+\fancyhead[R]{\today}
+
+\fancyfoot[L]{\SEMESTER}
+\fancyfoot[C]{}
+\fancyfoot[R]{Seite \thepage /\pageref{LastPage}}
+
+%Formatierung der Überschrift, hier nichts ändern
+\def\header#1#2{
+	\begin{center}
+		{\Large #1}\\
+		{#2}
+	\end{center}
+}
+
+\numberwithin{equation}{subsection} 
+
+\nocite{*}
+\bibliographystyle{plainurl}
+
+\setlength\parindent{0pt}
+
+% ----------------------- DOCUMENT ---------------------------
+
+\begin{document}
+
+\vspace{10pt}
+\header{\HEADDING}{\SUBHEADDING}
+	
+\tableofcontents
+	
+\newpage
+	
+\section{Einleitung}
+Der Versuch zur Prismenspektroskopie soll die Brechung elektromagnetischer Wellen an einem Prisma zeigen.
+Dafür werden Lichtspektren unterschiedlicher Leuchtdioden untersucht.
+
+\newpage
+\section{Theorie}
+
+\newpage
+\section{Häusliche Vorarbeit}
+\subsection{Wie funktioniert eine LED?}
+Eine Leuchtdiode (LED) besteht aus 2 Halbleiterschichten, welche in Durchlassrichtung geschaltet sind.
+Durch Anlegen einer Spannung wandern Elektronen von der n-dotierten über den pn-Übergang zur p-dotierten Seite.
+Dabei geht das Elektron in das energetisch günstigere Valenzband (höheres Energieniveau) über.
+Ein Strom fließt durch die Diode und die aufgebaute Diffusionsspannung wird abgebaut.
+Die dadurch freiwerdende Energie wird in Form von Licht (Photon) von der Diode ausgesandt.
+Dabei hängt die Wellenlänge des ausgestrahlten Lichtes vom Halbleitermaterial und der Dotierung ab. \cite{leifi}
+
+\subsection{Warum emittiert eine Gasentladungslampe ein Linienspektrum?}
+Die Gasentladung in der Lampe entsteht auf Grund von Ionisationsvorgängen.
+Wenn man die an den Elektronen anliegende Spannung erhöht, werden die Elektronen immer schneller zur Anode beschleunigt.
+
+
+\newpage
+\section{Aufbau und Durchführung}
+
+\newpage
+\section{Auswertung Versuch}
+
+\newpage
+\section{Wertung/Fazit}
+
+\newpage
+\section{Anhang}
+
+\newpage
+\section{Literatur}
+
+\label{LastPage}
+
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
