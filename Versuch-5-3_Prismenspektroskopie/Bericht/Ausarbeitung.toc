@@ -4,9 +4,11 @@
 \contentsline {section}{\numberline {3}Häusliche Vorarbeit}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Wie funktioniert eine LED?}{4}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Warum emittiert eine Gasentladungslampe ein Linienspektrum?}{4}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Aufbau und Durchführung}{5}{section.4}%
-\contentsline {section}{\numberline {5}Auswertung Versuch}{6}{section.5}%
-\contentsline {section}{\numberline {6}Wertung/Fazit}{7}{section.6}%
-\contentsline {section}{\numberline {7}Anhang}{8}{section.7}%
-\contentsline {section}{\numberline {8}Literatur}{9}{section.8}%
+\contentsline {subsection}{\numberline {3.3}Unter welchem Winkel $\theta _1$, $\theta _2$ treten die beiden Wellenlängen aus dem Prisma aus?}{4}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Welches Glas ist für die Verwendung in einem Prismenspektrometer am besten geeignet?}{5}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Aufbau und Durchführung}{6}{section.4}%
+\contentsline {section}{\numberline {5}Auswertung Versuch}{7}{section.5}%
+\contentsline {section}{\numberline {6}Wertung/Fazit}{8}{section.6}%
+\contentsline {section}{\numberline {7}Anhang}{9}{section.7}%
+\contentsline {section}{\numberline {8}Literatur}{10}{section.8}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
